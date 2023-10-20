@@ -1,0 +1,83 @@
+'use client';
+
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import React from 'react';
+
+const links = [
+  {
+    href: '/',
+    label: 'Home',
+  },
+  {
+    href: '/about-us',
+    label: 'About Us',
+  },
+  {
+    href: '/services',
+    label: 'Services',
+  },
+  {
+    href: '/free-tax-review',
+    label: 'Free Tax Review',
+  },
+  {
+    href: '/tax-appeal-case-studies',
+    label: 'Case Studies',
+  },
+  {
+    href: '/blog',
+    label: 'Blog',
+  },
+  {
+    href: 'mailto::info@sftaxappeal.com?subject=New%20Inquiry',
+    label: 'Contact Us',
+  },
+];
+
+export const Header: React.FC = () => {
+  const pathname = usePathname();
+
+  return (
+    <div
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+      className="nav w-nav"
+    >
+      <div className="nav-container w-container">
+        <Link href="#" className="logo w-nav-brand">
+          <Image
+            width="300"
+            height={(300 * 137) / 675}
+            src="/images/taxappeal.webp"
+            alt="san francisco tax appeal logo"
+            className="image"
+          />
+        </Link>
+        <nav role="navigation" className="nav-menu w-nav-menu">
+          {links.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              aria-current="page"
+              className={`nav-link-2 w-nav-link ${
+                pathname === link.href ? 'w--current' : ''
+              }
+                `}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+        <div className="w-nav-button">
+          <div className="w-icon-nav-menu"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
