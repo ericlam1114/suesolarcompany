@@ -15,7 +15,7 @@ type FormValues = {
 export const ContactForm: React.FC = () => {
   const [formState, setFormState] = useState<
     'default' | 'submitting' | 'success' | 'error'
-  >('error');
+  >('default');
 
   const isSubmitted = formState === 'success' || formState === 'error';
 
