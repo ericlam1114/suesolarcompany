@@ -8,7 +8,7 @@ import './globals.css';
 
 import '../styles/morgantaxappeals.webflow.css';
 
-const openSans = Open_Sans({ subsets: ['latin'] });
+const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 
 export const metadata: Metadata = {
   title: 'San Francisco Tax Appeal',

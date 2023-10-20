@@ -1,4 +1,8 @@
+import { ContactForm } from '@/components';
 import Image from 'next/image';
+import downloadImage from '../../public/images/download.png';
+import sfImage from '../../public/images/sf.webp';
+import sfCornerImage from '../../public/images/sfcorner.webp';
 
 export default function Home() {
   return (
@@ -20,29 +24,7 @@ export default function Home() {
           </div>
           <div className="hero-right">
             <div className="w-layout-blockcontainer w-container">
-              <div className="w-form">
-                <div>
-                  <h2 className="heading-6">Let&#x27;s work together</h2>
-                  <p className="paragraph-6">
-                    Get a free tax review for your commercial property
-                  </p>
-                </div>
-                {/* <form id="email-form" name="email-form" data-name="Email Form" method="get" className="form-2" data-wf-page-id="64b05eb67dd5ad782067b183" data-wf-element-id="31fe84d0-71ef-2318-9eb1-67d6283decd0">
-              <div className="w-layout-grid grid">
-                <div id="w-node-_96684179-3191-d52e-88cc-e64db9c9f918-2067b183"><input type="text" className="w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name*" id="First-Name" required=""/><input type="text" className="w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email*" id="Email-2" required=""/><input type="text" className="w-input" maxlength="256" name="Job-Title" data-name="Job Title" placeholder="Job Title*" id="Job-Title" required=""/></div>
-                <div id="w-node-_44dfb7e2-574e-0d86-2998-c65358b9a5df-2067b183"><input type="text" className="w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name*" id="Last-Name" required=""/><input type="text" className="w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company*" id="Company" required=""/><input type="text" className="w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="Phone*" id="Phone" required=""/></div>
-              </div><textarea required="" placeholder="How can we help you?*" maxlength="5000" id="How-can-we-help-you" name="How-can-we-help-you" data-name="How can we help you?" className="w-input"/></textarea>
-              <div className="div-block"><input type="submit" value="Submit" data-wait="Please wait..." className="submit-button-2 w-button"/></div>
-            </form> */}
-                <div className="w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div className="w-form-fail">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
-                  </div>
-                </div>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </div>
@@ -65,12 +47,10 @@ export default function Home() {
           </div>
           <div className="right-1">
             <Image
-              src="/images/sfcorner.webp"
-              alt="commercial property tax appeals"
-              sizes="(max-width: 479px) 73vw, 300px"
-              srcset="images/sfcorner-p-500.png 500w, images/sfcorner-p-800.png 800w, images/sfcorner.webp 1024w"
+              src={sfCornerImage}
               width="300"
               height="300"
+              alt="commercial property tax appeals"
               className="screenshot"
             />
           </div>
@@ -78,7 +58,7 @@ export default function Home() {
         <div className="wrap-2 b">
           <div className="left-2">
             <Image
-              src="/images/sf.webp"
+              src={sfImage}
               width="300"
               height="300"
               alt="tax appeals san francisco"
@@ -112,7 +92,7 @@ export default function Home() {
             <div className="column-1">
               <h4 className="column-1-title">Done-For-You</h4>
               <Image
-                src="/images/download.png"
+                src={downloadImage}
                 width="100"
                 height="100"
                 alt="green check mark"
@@ -125,7 +105,7 @@ export default function Home() {
             <div className="column-1">
               <h4 className="column-1-title">San Francisco Native</h4>
               <Image
-                src="/images/download.png"
+                src={downloadImage}
                 width="100"
                 height="100"
                 alt="green check mark"
@@ -140,7 +120,7 @@ export default function Home() {
                 <strong>Commitment Free</strong>
               </h4>
               <Image
-                src="/images/download.png"
+                src={downloadImage}
                 alt="green check mark"
                 width="100"
                 height="100"
