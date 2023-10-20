@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React from 'react';
+import React, { useState } from 'react';
 
 const links = [
   {
@@ -38,6 +38,16 @@ const links = [
 
 export const Header: React.FC = () => {
   const pathname = usePathname();
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const onToggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const onLinkClick = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <div
@@ -74,8 +84,43 @@ export const Header: React.FC = () => {
             </Link>
           ))}
         </nav>
-        <div className="w-nav-button">
+        <div
+          className={`w-nav-button ${isMenuOpen ? 'w--open' : ''}`}
+          onClick={onToggleMenu}
+        >
           <div className="w-icon-nav-menu"></div>
+        </div>
+        <div
+          className="w-nav-overlay"
+          data-wf-ignore=""
+          id="w-nav-overlay-0"
+          style={{
+            height: '100vh',
+            maxHeight: isMenuOpen ? '100vh' : 0,
+            display: 'flex',
+            transition: 'all 400ms ease 0s',
+          }}
+        >
+          <nav
+            role="navigation"
+            className="nav-menu w-nav-menu"
+            data-nav-menu-open=""
+          >
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current="page"
+                className={`nav-link-2 w-nav-link w--nav-link-open ${
+                  pathname === link.href ? 'w--current' : ''
+                }
+                `}
+                onClick={onLinkClick}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
         </div>
       </div>
     </div>

@@ -1682,6 +1682,7 @@ textarea.w-select {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  margin: auto;
   user-select: none;
 }
 .w-nav-button:focus {
