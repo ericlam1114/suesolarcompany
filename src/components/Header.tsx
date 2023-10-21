@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const links = [
   {
@@ -53,7 +53,15 @@ export const Header: React.FC = () => {
 
   const onLinkClick = () => {
     setIsMenuOpen(false);
+
+    document.documentElement.style.overflowY = 'auto';
   };
+
+  useEffect(() => {
+    return () => {
+      document.documentElement.style.overflowY = 'auto';
+    };
+  }, []);
 
   return (
     <div
