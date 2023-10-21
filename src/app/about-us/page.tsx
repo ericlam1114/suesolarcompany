@@ -1,7 +1,6 @@
 import { ResponsiveImage } from '@/components';
 import { populateMetadata } from '@/utils';
-import { Metadata } from 'next';
-import React from 'react';
+import { Metadata, NextPage } from 'next';
 import ericLamImage from '../../../public/images/eric-lam.webp';
 import jonMorganImage from '../../../public/images/jon-morgan.webp';
 import sloganImage from '../../../public/images/slogan.webp';
@@ -20,7 +19,7 @@ export const metadata: Metadata = populateMetadata({
   },
 });
 
-const AboutUsPage: React.FC = () => {
+const AboutUsPage: NextPage = () => {
   return (
     <>
       <div className="w-layout-blockcontainer w-container">

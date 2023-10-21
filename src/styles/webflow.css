@@ -1687,8 +1687,8 @@ textarea.w-select {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  margin: auto;
   user-select: none;
+  height: fit-content;
 }
 .w-nav-button:focus {
   outline: 0;

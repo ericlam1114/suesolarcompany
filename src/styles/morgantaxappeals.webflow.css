@@ -83,6 +83,7 @@ p {
   margin-right: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-menu {
@@ -94,7 +95,6 @@ p {
 .logo {
   height: 100%;
   align-items: center;
-  margin-left: -112px;
   display: flex;
 }
 

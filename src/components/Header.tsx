@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import logoImage from '../../public/images/taxappeal.png';
 
 const links = [
   {
@@ -74,11 +75,10 @@ export const Header: React.FC = () => {
       className="nav w-nav"
     >
       <div className="nav-container ">
-        <Link href="#" className="logo w-nav-brand">
+        <Link href="/" className="logo w-nav-brand">
           <Image
-            width="300"
-            height={(300 * 137) / 675}
-            src="/images/taxappeal.webp"
+            width={91}
+            src={logoImage}
             alt="san francisco tax appeal logo"
             className="image"
           />
