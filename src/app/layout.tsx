@@ -1,4 +1,4 @@
-import { Header } from '@/components';
+import { Footer, Header } from '@/components';
 import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import Image from 'next/image';
@@ -77,6 +77,7 @@ export default function RootLayout({
         </section>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
