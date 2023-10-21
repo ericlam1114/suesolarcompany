@@ -42,7 +42,13 @@ export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const onToggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    const newIsMenuOpen = !isMenuOpen;
+
+    setIsMenuOpen(newIsMenuOpen);
+
+    document.documentElement.style.overflowY = newIsMenuOpen
+      ? 'hidden'
+      : 'auto';
   };
 
   const onLinkClick = () => {

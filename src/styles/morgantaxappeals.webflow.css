@@ -409,6 +409,7 @@ p {
   flex: none;
   order: 0;
   align-self: auto;
+  margin: auto;
   margin-bottom: 20px;
 }
 
