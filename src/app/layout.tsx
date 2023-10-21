@@ -6,19 +6,16 @@ import '../styles/normalize.css';
 import '../styles/webflow.css';
 import './globals.css';
 
+import { populateMetadata } from '@/utils';
 import '../styles/morgantaxappeals.webflow.css';
 
 const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 
-export const metadata: Metadata = {
+export const metadata: Metadata = populateMetadata({
   title: 'San Francisco Tax Appeal',
   description:
     'Navigate SF commercial property tax appeals with ease. Expert assistance for fair property taxation.',
-  openGraph: {
-    description:
-      'Navigate SF commercial property tax appeals with ease. Expert assistance for fair property taxation.',
-  },
-};
+});
 
 export default function RootLayout({
   children,

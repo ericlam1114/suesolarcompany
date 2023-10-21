@@ -73,7 +73,7 @@ export const Header: React.FC = () => {
       role="banner"
       className="nav w-nav"
     >
-      <div className="nav-container w-container">
+      <div className="nav-container ">
         <Link href="#" className="logo w-nav-brand">
           <Image
             width="300"

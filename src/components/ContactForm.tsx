@@ -1,3 +1,5 @@
+'use client';
+
 import { WEB_3_FORMS_ACCESS_KEY } from '@/constants';
 import React, { useState } from 'react';
 import { SubmitHandler, useForm } from 'react-hook-form';

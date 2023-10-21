@@ -81,6 +81,8 @@ p {
   max-width: none;
   margin-left: 0;
   margin-right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-menu {
