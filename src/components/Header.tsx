@@ -64,79 +64,132 @@ export const Header: React.FC = () => {
     };
   }, []);
 
+  if (pathname.startsWith('/studio')) {
+    return null;
+  }
+
   return (
-    <div
-      data-collapse="medium"
-      data-animation="default"
-      data-duration="400"
-      data-easing="ease"
-      data-easing2="ease"
-      role="banner"
-      className="nav w-nav"
-    >
-      <div className="nav-container ">
-        <Link href="/" className="logo w-nav-brand">
-          <Image
-            width={91}
-            src={logoImage}
-            alt="san francisco tax appeal logo"
-            className="image"
-          />
-        </Link>
-        <nav role="navigation" className="nav-menu w-nav-menu">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              aria-current="page"
-              className={`nav-link-2 w-nav-link ${
-                pathname === link.href ? 'w--current' : ''
-              }
-                `}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-        <div
-          className={`w-nav-button ${isMenuOpen ? 'w--open' : ''}`}
-          onClick={onToggleMenu}
-        >
-          <div className="w-icon-nav-menu"></div>
+    <>
+      <section className="section-5">
+        <div className="w-row">
+          <div className="column-4 w-col w-col-6">
+            <div className="columns w-row">
+              <div className="w-col w-col-6">
+                <div className="w-layout-blockcontainer container-4 w-container">
+                  <Image
+                    src="/images/phone-call.webp"
+                    loading="lazy"
+                    width="15"
+                    height="15"
+                    alt="phone"
+                    className="image-4"
+                  />
+                  <div className="text-block-3"> Call Us: (628) 333-9492</div>
+                </div>
+              </div>
+              <div className="w-col w-col-6">
+                <div className="w-layout-blockcontainer w-container">
+                  <div className="w-layout-blockcontainer container-4 w-container">
+                    <Image
+                      src="/images/email.webp"
+                      loading="lazy"
+                      width="15"
+                      height="15"
+                      alt="email"
+                      className="image-3"
+                    />
+                    <div> info@sftaxappeal.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="column-3 w-col w-col-6">
+            <div className="text-block">
+              <span className="text-span">
+                <strong>
+                  <em className="italic-text">
+                    Our clients have saved more than $27,000,000
+                  </em>
+                </strong>
+              </span>
+            </div>
+          </div>
         </div>
-        <div
-          className="w-nav-overlay"
-          data-wf-ignore=""
-          id="w-nav-overlay-0"
-          style={{
-            height: '100vh',
-            maxHeight: isMenuOpen ? '100vh' : 0,
-            display: 'flex',
-            transition: 'all 400ms ease 0s',
-          }}
-        >
-          <nav
-            role="navigation"
-            className="nav-menu w-nav-menu"
-            data-nav-menu-open=""
-          >
+      </section>
+      <div
+        data-collapse="medium"
+        data-animation="default"
+        data-duration="400"
+        data-easing="ease"
+        data-easing2="ease"
+        role="banner"
+        className="nav w-nav"
+      >
+        <div className="nav-container ">
+          <Link href="/" className="logo w-nav-brand">
+            <Image
+              width={91}
+              src={logoImage}
+              alt="san francisco tax appeal logo"
+              className="image"
+            />
+          </Link>
+          <nav role="navigation" className="nav-menu w-nav-menu">
             {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 aria-current="page"
-                className={`nav-link-2 w-nav-link w--nav-link-open ${
+                className={`nav-link-2 w-nav-link ${
                   pathname === link.href ? 'w--current' : ''
                 }
                 `}
-                onClick={onLinkClick}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
+          <div
+            className={`w-nav-button ${isMenuOpen ? 'w--open' : ''}`}
+            onClick={onToggleMenu}
+          >
+            <div className="w-icon-nav-menu"></div>
+          </div>
+          <div
+            className="w-nav-overlay"
+            data-wf-ignore=""
+            id="w-nav-overlay-0"
+            style={{
+              height: '100vh',
+              maxHeight: isMenuOpen ? '100vh' : 0,
+              display: 'flex',
+              transition: 'all 400ms ease 0s',
+            }}
+          >
+            <nav
+              role="navigation"
+              className="nav-menu w-nav-menu"
+              data-nav-menu-open=""
+            >
+              {links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  aria-current="page"
+                  className={`nav-link-2 w-nav-link w--nav-link-open ${
+                    pathname === link.href ? 'w--current' : ''
+                  }
+                `}
+                  onClick={onLinkClick}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };

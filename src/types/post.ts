@@ -1,7 +1,16 @@
 export type Post = {
-  id: string;
+  createdAt: string;
+  updatedAt: string;
+  slug: {
+    current: string;
+  };
+  body: any[];
   title: string;
-  content: string;
-  slug: string;
-  thumbnailUrl: string;
+  mainImage: {
+    asset: {
+      _ref: string;
+    };
+  };
+  _id: string;
+  summary: string;
 };

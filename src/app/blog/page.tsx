@@ -12,9 +12,6 @@ const BlogPage: NextPage = () => {
       </div>
       <div className="w-dyn-list">
         <BlogPostsGrid />
-        <div className="w-dyn-empty">
-          <div>No items found.</div>
-        </div>
       </div>
     </>
   );

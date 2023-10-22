@@ -69,7 +69,7 @@ export const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="w-form">
+    <div>
       <div>
         <h2 className="heading-6">Let&#x27;s work together</h2>
         <p className="paragraph-6">

@@ -35,6 +35,10 @@ body {
   color: #333;
   font-size: 14px;
   line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
 }
 
 h1 {
@@ -309,6 +313,7 @@ p {
   align-items: center;
   padding-top: 0;
   display: flex;
+  margin-top: auto;
 }
 
 .footer-top-wrap {
@@ -856,8 +861,7 @@ body {
   .footer-top {
     object-fit: none;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: auto;
     overflow: auto;
   }
 
@@ -1176,11 +1180,6 @@ body {
   .container-7 {
     padding-left: 5px;
     padding-right: 5px;
-  }
-
-  .navbar-2 {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 
   .paragraph-10,

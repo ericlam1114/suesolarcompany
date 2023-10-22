@@ -1,4 +1,4 @@
-import { ContactForm } from '@/components';
+import { HeroSection } from '@/components';
 import Image from 'next/image';
 import downloadImage from '../../public/images/download.png';
 import sfImage from '../../public/images/sf.webp';
@@ -7,28 +7,7 @@ import sfCornerImage from '../../public/images/sfcorner.webp';
 export default function Home() {
   return (
     <>
-      <div className="hero-section">
-        <div className="hero-wrap">
-          <div className="hero-left">
-            <h1 className="heading-1">
-              <strong className="bold-text">
-                San Francisco Property Tax Appeal
-              </strong>
-            </h1>
-            <p className="subhead-1">
-              <strong className="bold-text-2">
-                We&#x27;ll help you challenge your San Francisco commercial
-                property assessment appeal.
-              </strong>
-            </p>
-          </div>
-          <div className="hero-right">
-            <div className="w-layout-blockcontainer w-container">
-              <ContactForm />
-            </div>
-          </div>
-        </div>
-      </div>
+      <HeroSection />
       <div className="class-section">
         <div className="wrap-2 a">
           <div className="left-1">

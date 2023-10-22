@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['localhost', 'picsum.photos', 'uploads-ssl.webflow.com'],
+    domains: ['localhost', 'picsum.photos', 'cdn.sanity.io'],
   },
 };
 

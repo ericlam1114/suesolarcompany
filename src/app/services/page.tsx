@@ -1,6 +1,7 @@
 import { ResponsiveImage } from '@/components';
 import { populateMetadata } from '@/utils';
 import { NextPage } from 'next';
+import Link from 'next/link';
 import declineInValueImage from '../../../public/images/decline-in-value.webp';
 import officeBuildingConstructionImage from '../../../public/images/office-building-construction.webp';
 
@@ -204,16 +205,16 @@ const ServicesPage: NextPage = () => {
       </div>
       <p>
         <strong>To return to the </strong>
-        <a href="https://www.sftaxappeal.com">
+        <Link href="/">
           <strong>
             homepage, click here.
             <br />‍
           </strong>
-        </a>
+        </Link>
         <strong>To request a </strong>
-        <a href="https://www.sftaxappeal.com">
+        <Link href="/">
           <strong>free property review, click here.</strong>
-        </a>
+        </Link>
       </p>
     </div>
   );

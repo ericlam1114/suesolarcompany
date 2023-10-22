@@ -1,4 +1,5 @@
 import { Post } from '@/types';
+import { urlFor } from '@/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -11,17 +12,17 @@ type Props = {
 export const BlogPostCard: React.FC<Props> = ({ post }) => {
   return (
     <Link
-      href={`/posts/${post.id}`}
+      href={`/blog/${post.slug.current}`}
       role="listitem"
       className={styles.container}
     >
       <div className={styles.imageContainer}>
-        <Image src={post.thumbnailUrl} alt="" fill />
+        <Image src={urlFor(post.mainImage).url()} alt="" fill />
       </div>
 
       <div className={styles.contentContainer}>
         <p className={styles.title}>{post.title}</p>
-        <p className={styles.content}>{post.content}</p>
+        <p className={styles.content}>{post.summary}</p>
       </div>
     </Link>
   );
