@@ -1,1 +1,1 @@
-export const WEB_3_FORMS_ACCESS_KEY = '2cac5a27-1da5-4694-bcf7-643a1e3bccc5';
+export const WEB_3_FORMS_ACCESS_KEY = '08caa7c2-3208-49d4-b738-b96e5de257da';
