@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import logoImage from '../../public/images/taxappeal.png';
+import logoImage from '../../public/images/taxappeal.webp';
 
 const links = [
   {
@@ -19,14 +19,14 @@ const links = [
     href: '/services',
     label: 'Services',
   },
-  {
-    href: '/free-tax-review',
-    label: 'Free Tax Review',
-  },
-  {
-    href: '/tax-appeal-case-studies',
-    label: 'Case Studies',
-  },
+  // {
+  //   href: '/free-tax-review',
+  //   label: 'Free Tax Review',
+  // },
+  // {
+  //   href: '/tax-appeal-case-studies',
+  //   label: 'Case Studies',
+  // },
   {
     href: '/blog',
     label: 'Blog',
@@ -109,7 +109,7 @@ export const Header: React.FC = () => {
               <span className="text-span">
                 <strong>
                   <em className="italic-text">
-                    Our clients have saved more than $27,000,000
+                    Our clients have saved more than $41,000,000
                   </em>
                 </strong>
               </span>
@@ -129,7 +129,8 @@ export const Header: React.FC = () => {
         <div className="nav-container ">
           <Link href="/" className="logo w-nav-brand">
             <Image
-              width={91}
+              width={250}
+              height={50}
               src={logoImage}
               alt="san francisco tax appeal logo"
               className="image"

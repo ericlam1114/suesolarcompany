@@ -12,13 +12,13 @@ export const Footer: React.FC = () => {
               Contact
             </a>
             <Link
-              href="privacy-policy-terms-and-conditions.html"
+              href="/privacy-policy-terms-and-conditions"
               className="footer-link"
             >
               Privacy
             </Link>
             <Link
-              href="privacy-policy-terms-and-conditions.html"
+              href="/privacy-policy-terms-and-conditions"
               className="footer-link"
             >
               Terms and Conditions

@@ -105,8 +105,8 @@ p {
 .hero-section {
   height: 500px;
   background-color: #000;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)),
-    url('/images/tower.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.361)),
+    url('/images/skyline.webp');
   background-position: 0 0, 0 0;
   flex-direction: column;
   justify-content: center;

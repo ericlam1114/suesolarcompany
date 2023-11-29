@@ -1,85 +1,216 @@
-import { ResponsiveImage } from '@/components';
-import { populateMetadata } from '@/utils';
-import { NextPage } from 'next';
-import Link from 'next/link';
-import declineInValueImage from '../../../public/images/decline-in-value.webp';
-import officeBuildingConstructionImage from '../../../public/images/office-building-construction.webp';
+import { ResponsiveImage } from "@/components";
+import { populateMetadata } from "@/utils";
+import { NextPage } from "next";
+import Link from "next/link";
+import declineInValueImage from "../../../public/images/decline-in-value.webp";
+import officeBuildingConstructionImage from "../../../public/images/office-building-construction.webp";
 
 export const metadata = populateMetadata({
-  title: 'Property Tax Appeal Services',
+  title: "Property Tax Appeal Services",
   description:
-    'Reduce your property taxes with SF Tax Appeal. Expert services for fair assessment.',
+    "Reduce your property taxes with SF Tax Appeal. Expert services for fair assessment.",
 });
 
 const ServicesPage: NextPage = () => {
   return (
     <div className="w-layout-blockcontainer w-container">
       <h1 className="heading-10">
-        <strong>Expert Property Tax Appeal Services in San Francisco</strong>
+        <strong>Expert Property Tax Appeal Services</strong>
       </h1>
       <div className="w-layout-blockcontainer w-container">
         <div className="columns-2 w-row">
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Proposition 8 – Decline in Value Appeals:</strong>
+                <strong>Comprehensive Tax Appeal Representation:</strong>
               </h1>
             </div>
             <p>
-              In the dynamic San Francisco real estate market, it&#x27;s not
-              uncommon for property owners to grapple with assessed values that
-              surpass the current market values. Such discrepancies might arise
-              from inaccuracies in the assessor recorder&#x27;s records,
-              misclassification of properties, or even factors like new
-              construction that haven&#x27;t been correctly accounted for.
-              Thankfully, SF Tax Appeal specializes in navigating these
-              challenges, ensuring that homeowners receive accurate property
-              assessments that reflect the real market value of their asset. If
-              you believe your property tax bill mirrors an over-assessment,
-              don&#x27;t hesitate to contact us at (628) 333-9492.
-              <br />‍<br />
-              San Francisco property owners have Proposition 8 under state law
-              to their advantage. This regulation enables them to contest the
-              assessed value of their property. Demonstrating that your
-              property&#x27;s market value is notably lower than its assessed
-              value can compel the county to adjust your property taxes. This
-              could mean either a temporary reduction in your upcoming secured
-              property tax or a refund for overpayments on prior assessed
-              values.
-              <br />‍<br />
-              SF Tax Appeal stands out for its efficiency in this domain. By
-              liaising with the county and the tax collector office, we ensure
-              that the property tax rate applied is in sync with the
-              property&#x27;s real value. Our commitment to our clients extends
-              beyond just services; we champion affordability with a success fee
-              of merely 33%. It embodies our core belief of delivering
-              cost-effective tax appeal solutions that prioritize our
-              clients&#x27; interests. With the fiscal year-end and due dates
-              like June 30 approaching, it&#x27;s crucial to address any
-              disparities in your tax bill promptly. Let us help you align your
-              property&#x27;s assessed value with its true market value.
+              Our nationwide focus allows us to cater to commercial property
+              owners across the United States. We specialize in tax appeal
+              representation, offering our expertise in navigating the complex
+              landscape of property tax appeals. Our goal is to ensure equitable
+              taxation for every commercial property we represent.
             </p>
           </div>
-          <div className="w-col w-col-6 image-6">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Assessment Review and Analysis:</strong>
+              </h1>
+            </div>
+            <p>
+              We conduct thorough reviews and analyses of property assessments,
+              identifying any discrepancies or over-valuations. Our team stays
+              abreast of current market trends and valuation methodologies,
+              ensuring your property is fairly assessed.
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
             <ResponsiveImage
               src={declineInValueImage}
               loading="lazy"
               sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
               alt="declining value"
             />
+          </div> */}
+        </div>
+        <div className="columns-2 w-row">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Nationwide Appeal Filing and Management:</strong>
+              </h1>
+            </div>
+            <p>
+              Our services include the preparation and filing of tax appeals
+              across various jurisdictions. We manage the entire appeal process,
+              from initial filing to resolution, ensuring compliance with all
+              state-specific regulations and deadlines.
+            </p>
           </div>
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Strategic Negotiation with Tax Authorities:</strong>
+              </h1>
+            </div>
+            <p>
+              Leveraging our extensive experience, we engage in strategic
+              negotiations with tax authorities. Our aim is to secure favorable
+              outcomes for our clients, reducing over-assessed property values
+              and consequently, the tax burden.
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
+            <ResponsiveImage
+              src={declineInValueImage}
+              loading="lazy"
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
+              alt="declining value"
+            />
+          </div> */}
+        </div>
+        <div className="columns-2 w-row">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Customized Valuation Appeals:</strong>
+              </h1>
+            </div>
+            <p>
+              We understand that each property is unique. Our approach involves
+              customizing valuation appeals based on individual property
+              characteristics, market conditions, and specific circumstances
+              that may impact the property's value.
+            </p>
+          </div>
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>
+                  Proposition 8 Appeals for Market Value Adjustments:
+                </strong>
+              </h1>
+            </div>
+            <p>
+              For clients in states like California, we handle Proposition 8
+              appeals, ensuring properties are taxed based on their current
+              market value, not just their assessed value.
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
+            <ResponsiveImage
+              src={declineInValueImage}
+              loading="lazy"
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
+              alt="declining value"
+            />
+          </div> */}
+        </div>
+        <div className="columns-2 w-row">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Nationwide Success Fee Structure:</strong>
+              </h1>
+            </div>
+            <p>
+              We offer a success-based fee structure, aligning our interests
+              with those of our clients. Our fees are contingent upon achieving
+              tax reductions for your property, ensuring a risk-free
+              partnership.
+            </p>
+          </div>
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Expertise in Commercial Property Types:</strong>
+              </h1>
+            </div>
+            <p>
+              Our team has expertise across a range of commercial property
+              types, including office buildings, retail spaces, industrial
+              properties, and more. This diverse experience ensures we can
+              effectively represent a wide variety of commercial properties.
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
+            <ResponsiveImage
+              src={declineInValueImage}
+              loading="lazy"
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
+              alt="declining value"
+            />
+          </div> */}
+        </div>
+        <div className="columns-2 w-row">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Regular Communication and Reporting:</strong>
+              </h1>
+            </div>
+            <p>
+              We believe in keeping our clients informed. Regular updates and
+              reports are provided throughout the appeal process, ensuring
+              transparency and understanding of all actions taken on your
+              property's behalf.
+            </p>
+          </div>
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Long-Term Tax Planning and Advisory:</strong>
+              </h1>
+            </div>
+            <p>
+              Beyond the immediate tax appeal, we offer long-term tax planning
+              and advisory services to help commercial property owners make
+              informed decisions about their properties and potential future tax
+              implications.
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
+            <ResponsiveImage
+              src={declineInValueImage}
+              loading="lazy"
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
+              alt="declining value"
+            />
+          </div> */}
         </div>
       </div>
       <div className="w-layout-blockcontainer w-container">
         <div className="w-row">
           <div className="w-col w-col-6 image-5">
-            <ResponsiveImage
+            {/* <ResponsiveImage
               src={officeBuildingConstructionImage}
               sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
               alt="construction"
-            />
+            /> */}
           </div>
-          <div className="w-col w-col-6">
+          {/* <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
                 <strong>Supplemental &amp; Base Year Appeals Services</strong>
@@ -123,10 +254,10 @@ const ServicesPage: NextPage = () => {
                 first year’s savings.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="w-layout-blockcontainer w-container">
-          <section>
+          {/* <section>
             <div className="w-layout-blockcontainer w-container">
               <h3>
                 <strong>San Francisco Real Estate Tax:</strong>
@@ -199,7 +330,7 @@ const ServicesPage: NextPage = () => {
                 optimize your secured property tax commitments.
               </p>
             </div>
-          </section>
+          </section> */}
           <h2>Next Steps...</h2>
         </div>
       </div>

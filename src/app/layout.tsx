@@ -11,9 +11,9 @@ import '../styles/morgantaxappeals.webflow.css';
 const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 
 export const metadata: Metadata = populateMetadata({
-  title: 'San Francisco Tax Appeal',
+  title: 'Commercial Property Tax Appeal',
   description:
-    'Navigate SF commercial property tax appeals with ease. Expert assistance for fair property taxation.',
+    'Navigate your commercial property tax appeals with ease. Only pay what you fairly owe.',
 });
 
 export default function RootLayout({

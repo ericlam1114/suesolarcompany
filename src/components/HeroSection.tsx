@@ -8,12 +8,12 @@ export const HeroSection: React.FC = () => {
         <div className="hero-left">
           <h1 className="heading-1">
             <strong className="bold-text">
-              San Francisco Property Tax Appeal
+            Commercial Property Tax Appeal
             </strong>
           </h1>
           <p className="subhead-1">
             <strong className="bold-text-2">
-              We&#x27;ll help you challenge your San Francisco commercial
+              We&#x27;ll help you challenge your commercial
               property assessment appeal.
             </strong>
           </p>
