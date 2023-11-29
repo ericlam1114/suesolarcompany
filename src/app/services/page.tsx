@@ -102,7 +102,7 @@ const ServicesPage: NextPage = () => {
               We understand that each property is unique. Our approach involves
               customizing valuation appeals based on individual property
               characteristics, market conditions, and specific circumstances
-              that may impact the property's value.
+              that may impact the property&apos;s value.
             </p>
           </div>
           <div className="w-col w-col-6">
@@ -175,7 +175,7 @@ const ServicesPage: NextPage = () => {
               We believe in keeping our clients informed. Regular updates and
               reports are provided throughout the appeal process, ensuring
               transparency and understanding of all actions taken on your
-              property's behalf.
+              property&apos;s behalf.
             </p>
           </div>
           <div className="w-col w-col-6">
