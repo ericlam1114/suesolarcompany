@@ -1,4 +1,9 @@
-import { NextPage } from "next";
+import { Metadata, NextPage } from "next";
+
+
+export const metadata:Metadata= {
+   title:"Terms and Conditions & Privacy Policy"
+}
 
 const TermsAndPrivacyPage: NextPage = () => {
   return (

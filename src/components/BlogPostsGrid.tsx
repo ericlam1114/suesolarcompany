@@ -29,7 +29,6 @@ export const BlogPostsGrid: React.FC = async () => {
   const posts = await client.fetch<Post[]>(
     `*[_type == "post"]|order(publishedAt desc)`
   );
-  console.log(posts.map((post) => post));
 
   if (posts.length === 0) {
     return <div className={styles.emptyContainer}>No posts found</div>;

@@ -3,6 +3,12 @@ import Image from "next/image";
 import downloadImage from "../../public/images/download.png";
 import sfImage from "../../public/images/office.webp";
 import sfCornerImage from "../../public/images/building.webp";
+import { Metadata } from "next";
+
+
+export const metadata:Metadata={
+  title:"Reduce Your Commercial Property Tax",
+}
 
 export default function Home() {
   return (
