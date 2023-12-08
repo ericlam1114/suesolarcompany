@@ -3,10 +3,49 @@ import { Post } from '@/types';
 import { client, urlFor } from '@/utils';
 import { PortableText } from '@portabletext/react';
 import { NextPage } from 'next';
+import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import backArrowImage from '../../../../public/images/arrow-back-8.webp';
+import backArrowImage from '/public/images/arrow-back-8.webp';
 import styles from './page.module.css';
+
+type Props = {
+    params: {
+        postId: string;
+        slug: string;
+    };
+};
+
+export async function generateStaticParams() {
+    const posts = await client.fetch<Post[]>(
+    `*[_type == "post"]|order(publishedAt desc)`
+  ); //deduped!
+
+    if (!posts) return [];
+
+    return posts.map((post) => ({
+        postId: post._id,
+        slug: post.slug.current
+    }));
+}
+
+export async function generateMetadata({ params: { slug } }: Props) {
+    const post = await client.fetch<Post>(
+        '*[_type == "post" && slug.current == $slug][0]',
+        { slug }
+    ); //deduped!
+
+    if (!post) {
+        return {
+            title: 'Post Not Found'
+        };
+    }
+
+    return {
+        title: post.title,
+        description: post.summary
+    };
+}
 
 const BlogPostPage: NextPage<{ params: { slug: string } }> = async ({
   params: { slug },
@@ -15,6 +54,8 @@ const BlogPostPage: NextPage<{ params: { slug: string } }> = async ({
     '*[_type == "post" && slug.current == $slug][0]',
     { slug }
   );
+
+    if (!post) notFound();
 
   return (
     <>

@@ -10,6 +10,8 @@ import '../styles/morgantaxappeals.webflow.css';
 
 const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 
+export const revalidate = 300000
+
 export const metadata: Metadata = populateMetadata({
   title: 'Commercial Property Tax Appeal',
   description:
