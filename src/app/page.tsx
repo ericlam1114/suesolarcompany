@@ -7,7 +7,7 @@ import { Metadata } from "next";
 
 
 export const metadata:Metadata={
-  title:"Reduce Your Commercial Property Tax",
+  title:"Los Angeles Commercial Property Tax Appeal",
 }
 
 export default function Home() {

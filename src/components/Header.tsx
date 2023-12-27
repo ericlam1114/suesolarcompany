@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import logoImage from '../../public/images/taxappeal.webp';
+import logoImage from '../../public/images/logo.webp';
 
 const links = [
   {

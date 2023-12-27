@@ -106,7 +106,7 @@ p {
   height: 500px;
   background-color: #000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.607), rgba(0, 0, 0, 0.361)),
-    url('/images/skyline.webp');
+    url('/images/palmtrees.webp');
   background-position: 0 0, 0 0;
   flex-direction: column;
   justify-content: center;

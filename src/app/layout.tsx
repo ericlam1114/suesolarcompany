@@ -15,7 +15,7 @@ export const revalidate = 300000
 export const metadata: Metadata = populateMetadata({
   title: 'Commercial Property Tax Appeal',
   description:
-    'Navigate your commercial property tax appeals with ease. Only pay what you fairly owe.',
+    'Secure a fair assessment for your Los Angeles commercial property with expert tax appeal services.',
 });
 
 export default function RootLayout({
