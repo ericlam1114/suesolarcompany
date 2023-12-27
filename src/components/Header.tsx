@@ -84,7 +84,7 @@ export const Header: React.FC = () => {
                     alt="phone"
                     className="image-4"
                   />
-                  <div className="text-block-3"> Call Us: (628) 333-9492</div>
+                  <div className="text-block-3"> Call Us: (610) 322-7798</div>
                 </div>
               </div>
               <div className="w-col w-col-6">
@@ -130,7 +130,7 @@ export const Header: React.FC = () => {
           <Link href="/" className="logo w-nav-brand">
             <Image
               width={250}
-              height={50}
+              height={60}
               src={logoImage}
               alt="san francisco tax appeal logo"
               className="image"
