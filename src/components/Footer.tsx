@@ -27,10 +27,10 @@ export const Footer: React.FC = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <div className="legal">71 Stevenson St, San Francisco, CA 94105</div>
+        <div className="legal">515 South Flower Street 18th and 19th Floors, Los Angeles, CA 90071</div>
         <div className="footer-bottom-wrap">
           <div className="legal">
-            © 2017, SFTaxAppeal, LLC. All Rights Reserved.{' '}
+            © 2017, Skyline Tax Appeal, LLC. All Rights Reserved.{' '}
           </div>
         </div>
       </div>

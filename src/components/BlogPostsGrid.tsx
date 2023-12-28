@@ -27,7 +27,8 @@ const posts = [
 
 export const BlogPostsGrid: React.FC = async () => {
   const posts = await client.fetch<Post[]>(
-    `*[_type == "post"]|order(publishedAt desc)`
+    // when ready swap below for this  `*[_type == "post"]|order(publishedAt desc)`
+    `*[_type == "post/"]|order(publishedAt desc)`
   );
 
   if (posts.length === 0) {

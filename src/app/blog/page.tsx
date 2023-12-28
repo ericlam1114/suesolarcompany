@@ -3,6 +3,7 @@ import { NextPage, Metadata } from 'next';
 
 export const metadata:Metadata= {
    title:"Blog Posts"
+  
 }
 
 const BlogPage: NextPage = () => {

@@ -6,16 +6,16 @@ import jonMorganImage from '../../../public/images/jon-morgan.webp';
 import sloganImage from '../../../public/images/slogan.webp';
 
 export const metadata: Metadata = populateMetadata({
-  title: 'About Us',
+  title: 'About Us | Los Angeles Tax Appeal | Commercial Property Assessment Appeal',
   description:
-    'Appeal your commercial property taxes. Expert help for fair assessments.',
+    'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
   openGraph: {
     description:
-      'Appeal your commercial property taxes. Expert help for fair assessments.',
+      'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
   },
   twitter: {
     description:
-      'Appeal your commercial property taxes. Expert help for fair assessments.',
+      'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
   },
 });
 
@@ -42,36 +42,38 @@ const AboutUsPage: NextPage = () => {
           </div>
           <h1>About Us</h1>
           <p>
-          Skyline Tax Appeal is a leading commercial real estate tax appeal firm, offering nationwide services for commercial property owners. Our focus is on protecting clients from undue taxation levied by local assessors.
+          Los Angeles Tax Appeal, a distinguished commercial real estate tax appeal firm in Los Angeles County, caters to the needs of commercial property owners. Our objective is to safeguard our clients from unwarranted taxation by local tax authorities.
 
 <br />
             <br />
-            The process of engaging with assessor&#x27;s offices can be daunting, intricate, and demanding. At Skyline Tax Appeal, we utilize our strong connections with these offices to oversee all facets of the property tax appeal process. This includes filing applications, exchanging data, evaluating property values, conducting negotiations, presenting cases at Assessment Appeals Boards, and monitoring refunds.
+            The task of dealing with assessor's offices can be intricate and demanding. At Los Angeles Tax Appeal, we capitalize on our robust connections with these offices, managing every element of the property tax appeal process. This encompasses the submission of appeal applications, data exchange, property value assessment, negotiation undertakings, representation at Assessment Appeals Boards, and tracking of refunds.
             <br />
             <br />
-            Our goal is to craft your appeal using compelling valuation techniques and strong arguments, aiming to significantly lower the taxable value of your property. We achieve this by prioritizing our clients’ interests, maintaining clear and ongoing communication throughout the appeal process.
+            Our method involves crafting effective appeals using advanced valuation techniques and strong arguments, aimed at considerably reducing the taxable value of your property. We prioritize our clients' interests, ensuring transparent and continuous communication throughout the appeal journey.
 
 
             <br />
             <br />
-            Skyline Tax Appeal is dedicated to ensuring that you pay only a fair amount of property taxes. Our experienced team of property tax consultants, armed with effective strategies, has a track record of securing major tax reductions for our clients. We have successfully handled numerous appeals with Assessor’s Offices nationwide, achieving a remarkable 95% success rate and an average reduction in taxable value of 25%.
+            Los Angeles Tax Appeal is devoted to ensuring that you are only charged a fair amount in property taxes. Our team of experienced property tax consultants, equipped with proven strategies, has consistently secured significant tax reductions for our clients. We have a remarkable record of appealing successfully with Assessor’s Offices nationwide, achieving a 95% success rate and an average reduction in taxable value of 25%.
 
 
             <br />
             <br />
-            Rest assured that your property’s valuation is carefully examined and defended against excessive taxation by our expert consultants. We take pride in our exceptional customer service at Skyline Tax Appeal and welcome any inquiries or concerns regarding any stage of the appeal process.
+            You can trust that your property&#x27;s valuation will be thoroughly reviewed and protected against excessive taxation by our expert team. We take pride in our exceptional customer service at Los Angeles Tax Appeal and are always available to address any inquiries or concerns at any stage of the appeal process.
+
+
 
            
           </p>
           <div className="w-layout-blockcontainer w-container">
             <div className="columns-3 w-row">
               <div className="w-col w-col-6">
-                <h2 className="heading-9">
+                {/* <h2 className="heading-9">
                   <span className="text-span-2">
                     Jon Morgan, CEO &amp; Property Tax Consultant
                   </span>
-                </h2>
-                <div className="w-layout-blockcontainer w-container">
+                </h2> */}
+                {/* <div className="w-layout-blockcontainer w-container">
                   <p>
                     Jon Morgan, CEO of Skyline Tax Appeal, began his real estate
                     career in 2005, guided by his grandfather, Martin. <br />
@@ -92,8 +94,8 @@ const AboutUsPage: NextPage = () => {
                     <br />A proud UCSF alumnus, Jon enjoys family time and
                     outdoor activities like softball.
                   </p>
-                </div>
-              </div>
+                </div> */}
+              {/* </div>
               <div className="w-col w-col-6">
                 <ResponsiveImage
                   src={jonMorganImage}
@@ -141,8 +143,8 @@ const AboutUsPage: NextPage = () => {
                     Pennsylvania, and following in the family tradition his
                     father has built a career as one of the states top
                     commercial real estate appraiser&#x27;s.{' '}
-                  </p>
-                </div>
+                  </p> */}
+                {/* </div> */}
               </div>
             </div>
           </div>

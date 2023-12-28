@@ -6,80 +6,49 @@ import declineInValueImage from "../../../public/images/decline-in-value.webp";
 import officeBuildingConstructionImage from "../../../public/images/office-building-construction.webp";
 
 export const metadata = populateMetadata({
-  title: "Property Tax Appeal Services",
+  title: "Los Angeles County Commercial Property Tax Appeal Services",
   description:
-    "Reduce your property taxes with SF Tax Appeal. Expert services for fair assessment.",
+    "Reduce your Los Angeles County commercial property taxes with our expert guidance.",
 });
 
 const ServicesPage: NextPage = () => {
   return (
     <div className="w-layout-blockcontainer w-container">
       <h1 className="heading-10">
-        <strong>Expert Property Tax Appeal Services</strong>
+        <strong>
+          Los Angeles County Commercial Property Tax Appeal Services
+        </strong>
       </h1>
       <div className="w-layout-blockcontainer w-container">
         <div className="columns-2 w-row">
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Comprehensive Tax Appeal Representation:</strong>
+                <strong>
+                  Tailored Representation for Los Angeles Commercial Properties:
+                </strong>
               </h1>
             </div>
             <p>
-              Our nationwide focus allows us to cater to commercial property
-              owners across the United States. We specialize in tax appeal
-              representation, offering our expertise in navigating the complex
-              landscape of property tax appeals. Our goal is to ensure equitable
-              taxation for every commercial property we represent.
+              Our services, although nationwide, are particularly attuned to the
+              needs of Los Angeles commercial property owners. We specialize in
+              providing expert representation in the intricate arena of property
+              tax appeals, aiming to secure just taxation for every property we
+              advocate for.
             </p>
           </div>
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Assessment Review and Analysis:</strong>
+                <strong>In-Depth Assessment Review and Market Analysis:</strong>
               </h1>
             </div>
             <p>
-              We conduct thorough reviews and analyses of property assessments,
-              identifying any discrepancies or over-valuations. Our team stays
-              abreast of current market trends and valuation methodologies,
-              ensuring your property is fairly assessed.
-            </p>
-          </div>
-          {/* <div className="w-col w-col-6 image-6">
-            <ResponsiveImage
-              src={declineInValueImage}
-              loading="lazy"
-              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
-              alt="declining value"
-            />
-          </div> */}
-        </div>
-        <div className="columns-2 w-row">
-          <div className="w-col w-col-6">
-            <div className="w-layout-blockcontainer w-container">
-              <h1 className="heading-15">
-                <strong>Nationwide Appeal Filing and Management:</strong>
-              </h1>
-            </div>
-            <p>
-              Our services include the preparation and filing of tax appeals
-              across various jurisdictions. We manage the entire appeal process,
-              from initial filing to resolution, ensuring compliance with all
-              state-specific regulations and deadlines.
-            </p>
-          </div>
-          <div className="w-col w-col-6">
-            <div className="w-layout-blockcontainer w-container">
-              <h1 className="heading-15">
-                <strong>Strategic Negotiation with Tax Authorities:</strong>
-              </h1>
-            </div>
-            <p>
-              Leveraging our extensive experience, we engage in strategic
-              negotiations with tax authorities. Our aim is to secure favorable
-              outcomes for our clients, reducing over-assessed property values
-              and consequently, the tax burden.
+              We perform meticulous reviews and analyses of property
+              assessments, pinpointing any inaccuracies or instances of
+              overvaluation. Our team is well-versed in the latest market trends
+              and valuation methods pertinent to Los Angeles, ensuring your
+              property receives a fair assessment.
             </p>
           </div>
           {/* <div className="w-col w-col-6 image-6">
@@ -95,28 +64,32 @@ const ServicesPage: NextPage = () => {
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Customized Valuation Appeals:</strong>
+                <strong>
+                  Localized Appeal Filing and Management in Los Angeles:
+                </strong>
               </h1>
             </div>
             <p>
-              We understand that each property is unique. Our approach involves
-              customizing valuation appeals based on individual property
-              characteristics, market conditions, and specific circumstances
-              that may impact the property&apos;s value.
+              We expertly handle the preparation and filing of tax appeals
+              within Los Angeles County, overseeing the entire process from
+              start to finish. This includes ensuring adherence to all local
+              regulations and deadlines specific to the Los Angeles area.
             </p>
           </div>
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
                 <strong>
-                  Proposition 8 Appeals for Market Value Adjustments:
+                  Strategic Negotiations Tailored to Los Angeles Market
+                  Dynamics:
                 </strong>
               </h1>
             </div>
             <p>
-              For clients in states like California, we handle Proposition 8
-              appeals, ensuring properties are taxed based on their current
-              market value, not just their assessed value.
+              Drawing on our extensive experience, we engage in strategic
+              discussions with local tax authorities. Our objective is to
+              achieve favorable resolutions, reducing over-assessed property
+              values and, as a result, your tax liabilities.
             </p>
           </div>
           {/* <div className="w-col w-col-6 image-6">
@@ -132,27 +105,31 @@ const ServicesPage: NextPage = () => {
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Nationwide Success Fee Structure:</strong>
+                <strong>
+                  Customized Valuation Appeals for Los Angeles Properties:
+                </strong>
               </h1>
             </div>
             <p>
-              We offer a success-based fee structure, aligning our interests
-              with those of our clients. Our fees are contingent upon achieving
-              tax reductions for your property, ensuring a risk-free
-              partnership.
+              Recognizing the uniqueness of each property, especially in the
+              diverse Los Angeles market, we customize our valuation appeals to
+              reflect each property&apos;s specific characteristics and the
+              local market conditions.
             </p>
           </div>
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
-                <strong>Expertise in Commercial Property Types:</strong>
+                <strong>
+                  Proposition 8 Appeals for Los Angeles Market Value
+                  Adjustments:
+                </strong>
               </h1>
             </div>
             <p>
-              Our team has expertise across a range of commercial property
-              types, including office buildings, retail spaces, industrial
-              properties, and more. This diverse experience ensures we can
-              effectively represent a wide variety of commercial properties.
+              In Los Angeles, we specialize in handling Proposition 8 appeals,
+              which ensure properties are taxed based on their current market
+              value, reflecting any decline in value.
             </p>
           </div>
           {/* <div className="w-col w-col-6 image-6">
@@ -165,6 +142,43 @@ const ServicesPage: NextPage = () => {
           </div> */}
         </div>
         <div className="columns-2 w-row">
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>
+                  Expertise Across Los Angeles Commercial Property Types:
+                </strong>
+              </h1>
+            </div>
+            <p>
+              Our team's expertise extends to various types of commercial
+              properties found in Los Angeles, including office buildings,
+              retail establishments, industrial sites, and more, ensuring
+              comprehensive representation.
+            </p>
+          </div>
+          <div className="w-col w-col-6">
+            <div className="w-layout-blockcontainer w-container">
+              <h1 className="heading-15">
+                <strong>Consistent Communication and Reporting for Los Angeles Clients:</strong>
+              </h1>
+            </div>
+            <p>
+            We prioritize transparent communication, providing regular updates and detailed reports throughout the appeal process to keep our Los Angeles clients fully informed.
+
+
+            </p>
+          </div>
+          {/* <div className="w-col w-col-6 image-6">
+            <ResponsiveImage
+              src={declineInValueImage}
+              loading="lazy"
+              sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 991px) 354px, 460px"
+              alt="declining value"
+            />
+          </div> */}
+        {/* </div> */}
+        {/* <div className="columns-2 w-row">
           <div className="w-col w-col-6">
             <div className="w-layout-blockcontainer w-container">
               <h1 className="heading-15">
@@ -190,7 +204,7 @@ const ServicesPage: NextPage = () => {
               informed decisions about their properties and potential future tax
               implications.
             </p>
-          </div>
+          </div> */}
           {/* <div className="w-col w-col-6 image-6">
             <ResponsiveImage
               src={declineInValueImage}
