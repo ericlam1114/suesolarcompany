@@ -183,9 +183,9 @@ export default function Home() {
             </strong>
           </h3>
           <p className="paragraph-11">
-            Property tax assessments are pivotal to commercial property owners'
+            Property tax assessments are pivotal to commercial property owners&apos;
             finances. Our team, skilled in the complexities of property taxes,
-            ensures you're not overburdened. We meticulously examine tax
+            ensures you&apos;re not overburdened. We meticulously examine tax
             assessments to guarantee fair property valuation. Utilizing our
             knowledge of market trends and property values, we contest unjust
             assessments to achieve tax reductions. Our strategy includes

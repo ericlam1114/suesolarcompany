@@ -151,7 +151,7 @@ const ServicesPage: NextPage = () => {
               </h1>
             </div>
             <p>
-              Our team's expertise extends to various types of commercial
+              Our team&apos;s expertise extends to various types of commercial
               properties found in Los Angeles, including office buildings,
               retail establishments, industrial sites, and more, ensuring
               comprehensive representation.

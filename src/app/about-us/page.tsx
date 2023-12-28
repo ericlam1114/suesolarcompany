@@ -46,10 +46,10 @@ const AboutUsPage: NextPage = () => {
 
 <br />
             <br />
-            The task of dealing with assessor's offices can be intricate and demanding. At Los Angeles Tax Appeal, we capitalize on our robust connections with these offices, managing every element of the property tax appeal process. This encompasses the submission of appeal applications, data exchange, property value assessment, negotiation undertakings, representation at Assessment Appeals Boards, and tracking of refunds.
+            The task of dealing with assessor&apos;s offices can be intricate and demanding. At Los Angeles Tax Appeal, we capitalize on our robust connections with these offices, managing every element of the property tax appeal process. This encompasses the submission of appeal applications, data exchange, property value assessment, negotiation undertakings, representation at Assessment Appeals Boards, and tracking of refunds.
             <br />
             <br />
-            Our method involves crafting effective appeals using advanced valuation techniques and strong arguments, aimed at considerably reducing the taxable value of your property. We prioritize our clients' interests, ensuring transparent and continuous communication throughout the appeal journey.
+            Our method involves crafting effective appeals using advanced valuation techniques and strong arguments, aimed at considerably reducing the taxable value of your property. We prioritize our clients&apos; interests, ensuring transparent and continuous communication throughout the appeal journey.
 
 
             <br />
