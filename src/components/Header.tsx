@@ -84,7 +84,7 @@ export const Header: React.FC = () => {
                     alt="phone"
                     className="image-4"
                   />
-                  <div className="text-block-3"> Call Us: (610) 322-7798</div>
+                  <div className="text-block-3"> Call Us:(628) 333-9492</div>
                 </div>
               </div>
               <div className="w-col w-col-6">
@@ -109,7 +109,7 @@ export const Header: React.FC = () => {
               <span className="text-span">
                 <strong>
                   <em className="italic-text">
-                    Our clients have saved more than $41,000,000
+                    Our clients have saved more than $36,400,000
                   </em>
                 </strong>
               </span>
