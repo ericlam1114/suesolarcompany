@@ -2,6 +2,8 @@ import { HeroSection } from "@/components";
 import Image from "next/image";
 import downloadImage from "../../public/images/download.png";
 import sfImage from "../../public/images/office.webp";
+import building from "../../public/images/LAbuilding2.webp";
+import building2 from "../../public/images/LAbuilding3.webp";
 import sfCornerImage from "../../public/images/building.webp";
 import { Metadata } from "next";
 
@@ -32,7 +34,7 @@ export default function Home() {
           </div>
           <div className="right-1">
             <Image
-              src={sfCornerImage}
+              src={building}
               width="300"
               height="300"
               alt="commercial property tax appeals"
@@ -43,7 +45,7 @@ export default function Home() {
         <div className="wrap-2 b">
           <div className="left-2">
             <Image
-              src={sfImage}
+              src={building2}
               width="300"
               height="300"
               alt="tax appeals san francisco"
