@@ -8,13 +8,14 @@ export const HeroSection: React.FC = () => {
         <div className="hero-left">
           <h1 className="heading-1">
             <strong className="bold-text">
-           Los Angeles Commercial Property Tax Appeal
+          QSBS Attestation Letter Online
             </strong>
           </h1>
           <p className="subhead-1">
             <strong className="bold-text-2">
-              We&#x27;ll help you challenge your Los Angeles commercial
-              property assessment appeal.
+              
+
+              Let us handle the IRS compliance and eligibility, while you focus on the growth and success of your business.
             </strong>
           </p>
         </div>

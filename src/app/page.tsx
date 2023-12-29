@@ -8,7 +8,7 @@ import sfCornerImage from "../../public/images/building.webp";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Los Angeles Commercial Property Tax Appeal",
+  title: "QSBS Attestation Letter Online",
 };
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
               more accurately with the current market realities.
             </p>
             <a href="#email-form" className="button-2 w-button">
-              Free Tax Review
+             Check Eligibility
             </a>
           </div>
           <div className="right-1">
@@ -64,7 +64,7 @@ export default function Home() {
               of mind and savings.
             </p>
             <a href="#email-form" className="button-2 w-button">
-              Free Tax Review
+             Check Eligibility
             </a>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function Home() {
           </h2>
           <div className="div-block-2">
             <a href="#email-form" className="button-2 w-button">
-              Free Tax Review
+             Check Eligibility
             </a>
           </div>
         </div>

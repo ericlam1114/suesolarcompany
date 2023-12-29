@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import logoImage from '../../public/images/logo.webp';
+import logoImage from '../../public/images/qsbslogo.webp';
 
 const links = [
   {
@@ -70,7 +70,7 @@ export const Header: React.FC = () => {
 
   return (
     <>
-      <section className="section-5">
+      {/* <section className="section-5">
         <div className="w-row">
           <div className="column-4 w-col w-col-6">
             <div className="columns w-row">
@@ -116,7 +116,7 @@ export const Header: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div
         data-collapse="medium"
         data-animation="default"

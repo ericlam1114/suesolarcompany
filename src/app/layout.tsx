@@ -13,9 +13,9 @@ const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 export const revalidate = 300000
 
 export const metadata: Metadata = populateMetadata({
-  title: 'Commercial Property Tax Appeal',
+  title: 'QSBS Attestation Letter Online | IRS Compliant QSBS Service',
   description:
-    'Secure a fair assessment for your Los Angeles commercial property with expert tax appeal services.',
+    'Let us handle the IRS compliance and eligibility, while you focus on the growth and success of your business.',
 });
 
 export default function RootLayout({

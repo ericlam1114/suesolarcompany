@@ -73,9 +73,9 @@ export const ContactForm: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="heading-6">Let&#x27;s work together</h2>
+        <h2 className="heading-6">Check your eligibility</h2>
         <p className="paragraph-6">
-          Get a free tax review for your commercial property
+          Get a free QSBS eligibility review
         </p>
       </div>
       {!isSubmitted && (
