@@ -73,7 +73,7 @@ export const ContactForm: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="heading-6">Check your eligibility</h2>
+        <h2 className="heading-6 md:lg:pt-4">Check your eligibility</h2>
         <p className="paragraph-6">
           Get a free QSBS eligibility review
         </p>
@@ -176,7 +176,7 @@ export const ContactForm: React.FC = () => {
           <div className="div-block">
             <button
               type="submit"
-              className="submit-button-2 w-button"
+              className="submit-button-2 bg-sky-400 w-button"
               disabled={isLoading}
             >
               {isLoading ? "Please wait..." : "Submit"}

@@ -129,8 +129,8 @@ export const Header: React.FC = () => {
         <div className="nav-container ">
           <Link href="/" className="logo w-nav-brand">
             <Image
-              width={250}
-              height={60}
+              width={300}
+              height={70}
               src={logoImage}
               alt="san francisco tax appeal logo"
               className="image"
