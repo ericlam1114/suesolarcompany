@@ -30,7 +30,7 @@ export default function Home() {
               One of the primary benefits of QSBS is the ability to exclude up
               to 100% of capital gains from federal income taxes on the sale of
               the stock, subject to certain limits. This exclusion is capped at
-              the greater of $10 million or 10 times the taxpayer's basis in the
+              the greater of $10 million or 10 times the taxpayer&lsquos basis in the
               stock.
               <br></br>
               <br></br>
@@ -41,8 +41,8 @@ export default function Home() {
               QSBS is the potential to exclude up to 100% of capital gains from
               federal income taxes when the stock is sold, provided certain
               conditions are met. This exclusion is subject to a cap, which is
-              the greater of $10 million or 10 times the taxpayer's basis in the
-              stock. For example, if an investor's initial investment (basis) in
+              the greater of $10 million or 10 times the taxpayer&lsquos basis in the
+              stock. For example, if an investor&lsquos initial investment (basis) in
               the stock is $1 million, they could potentially exclude up to $10
               million in gains from their taxable income.
             </p>
@@ -146,7 +146,7 @@ export default function Home() {
                 className="icon"
               />
               <p className="paragraph-3">
-                We focus 100% on QSBS so we're on top of the latest laws and
+                We focus 100% on QSBS so we&lsquore on top of the latest laws and
                 compliance
               </p>
             </div>
@@ -241,7 +241,7 @@ export default function Home() {
             and legitimate qualification. Utilizing our expertise in tax law and
             QSBS regulations, we challenge any discrepancies to secure rightful
             tax reductions. Our approach includes a thorough analysis of your
-            stock's eligibility, aligning your investments with the true spirit
+            stock&lsquos eligibility, aligning your investments with the true spirit
             of QSBS benefits.
           </p>
         </div>

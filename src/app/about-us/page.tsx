@@ -46,10 +46,10 @@ const AboutUsPage: NextPage = () => {
 
 <br />
             <br />
-            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBS Attestation Services, we leverage our deep expertise and strong connections within the financial and legal realms, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility, negotiating with tax authorities, and representing our clients' interests.
+            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBS Attestation Services, we leverage our deep expertise and strong connections within the financial and legal realms, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility, negotiating with tax authorities, and representing our clients&lsquo interests.
             <br />
             <br />
-            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients' needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
+            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients&lsquo needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
 
 
             <br />

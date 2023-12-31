@@ -60,7 +60,7 @@ export default function Example() {
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             For demonstrating compliance with IRS regulations and validating the
-            taxpayer's claim for QSBS benefits, thereby acting as a supportive
+            taxpayer&lsquos claim for QSBS benefits, thereby acting as a supportive
             document during audits. Investors request this letter as proof that
             their investment meets the necessary criteria for expected tax
             benefits, making it an integral component of legal and financial due
