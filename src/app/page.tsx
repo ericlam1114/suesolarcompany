@@ -190,26 +190,10 @@ export default function Home() {
             eligibility for significant capital gains tax exemptions.
           </p>
         </div>
+       
         <div className="w-layout-blockcontainer w-container">
           <h2 className="heading-21">
-            Streamline Your Los Angeles County Commercial Property Tax Appeal
-          </h2>
-          <p className="paragraph-11">
-            As specialists in QSBS (Qualified Small Business Stock) attestation
-            letters, we provide crucial support for investors seeking to benefit
-            from the tax advantages associated with QSBS under Section 1202 of
-            the Internal Revenue Code. Our comprehensive service includes expert
-            guidance through the QSBS attestation process, ensuring your
-            investments comply with the stringent IRS regulations. Our team,
-            consisting of experienced tax professionals and legal advisors, is
-            proficient in navigating the complexities of QSBS criteria across
-            diverse U.S. jurisdictions, focusing on validating your stock’s
-            eligibility for significant capital gains tax exemptions.
-          </p>
-        </div>
-        <div className="w-layout-blockcontainer w-container">
-          <h2 className="heading-21">
-            Streamline Your QSBS Attestation Process
+            Streamline the QSBS Attestation Process
           </h2>
 
           <p className="paragraph-11">
