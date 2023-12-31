@@ -1,9 +1,11 @@
 import { HeroSection } from "@/components";
 import Image from "next/image";
-import downloadImage from "../../public/images/download.png";
+import downloadImage from "../../public/images/check.webp";
 // import sfImage from "../../public/images/office.webp";
-import tax from "../../public/images/tax.webp";
-import compliance from "../../public/images/compliant.webp";
+import chart from "../../public/images/chart.webp";
+import defer from "../../public/images/defer.webp";
+import Process from '../../src/components/Process'
+import Timeline from '../../src/components/Timeline'
 // import building2 from "../../public/images/LAbuilding3.webp";
 
 import { Metadata } from "next";
@@ -23,15 +25,26 @@ export default function Home() {
       <div className="class-section">
         <div className="wrap-2 a">
           <div className="left-1">
-            <h2 className="heading-2">Lower Your Commercial Property Tax</h2>
+            <h2 className="heading-2">Capital Gains Tax Exclusion</h2>
             <p className="paragraph-2">
-              In the face of deteriorating market conditions, a proactive
-              approach to your Los Angeles commercial property tax can lead to
-              significant savings. As the real estate market experiences
-              downturns, your property&#x27;s assessed value may no longer
-              reflect its current worth. This presents an opportunity to
-              reassess and potentially reduce your property tax, aligning it
-              more accurately with the current market realities.
+              One of the primary benefits of QSBS is the ability to exclude up
+              to 100% of capital gains from federal income taxes on the sale of
+              the stock, subject to certain limits. This exclusion is capped at
+              the greater of $10 million or 10 times the taxpayer's basis in the
+              stock.
+              <br></br>
+              <br></br>
+              the Qualified Small Business Stock (QSBS) provision, outlined in
+              Section 1202 of the Internal Revenue Code, presents a significant
+              tax incentive for investors in small businesses, particularly
+              through the capital gains tax exclusion. The primary attraction of
+              QSBS is the potential to exclude up to 100% of capital gains from
+              federal income taxes when the stock is sold, provided certain
+              conditions are met. This exclusion is subject to a cap, which is
+              the greater of $10 million or 10 times the taxpayer's basis in the
+              stock. For example, if an investor's initial investment (basis) in
+              the stock is $1 million, they could potentially exclude up to $10
+              million in gains from their taxable income.
             </p>
             <a href="#email-form" className="button-2 w-button">
               Check Eligibility
@@ -39,50 +52,61 @@ export default function Home() {
           </div>
           <div className="right-1">
             <Image
-              src={tax}
-              width="300"
-              height="300"
-              alt="commercial property tax appeals"
+              src={chart}
+              width="500"
+              height="500"
+              alt="chart"
               className=""
             />
           </div>
         </div>
-        <div className="wrap-2 b">
-          <div className="left-2">
+        <div className="wrap-2 a">
+          <div className="right-1">
             <Image
-              src={compliance}
-              width="300"
-              height="300"
-              alt="tax appeals san francisco"
+              src={defer}
+              width="500"
+              height="500"
+              alt="deferal"
               className=""
             />
           </div>
-          <div className="right-2">
-            <h2 className="heading-2">Done-for-you Los Angeles tax appeal</h2>
-            <h4 className="heading-3">Here&#x27;s what you get...</h4>
+          <div className="left-1">
+            <h2 className="heading-2">Deferral of Capital Gains</h2>
             <p className="paragraph-2">
-              We&#x27;re proficient in navigating the diverse landscapes of the
-              Los Angeles real estate market and are committed to achieving
-              reduced assessments for your commercial properties. We focus on
-              delivering an efficient appeal process and ensure your tax
-              obligations reflect the true value of your property. Achieve peace
-              of mind and savings.
+              Investors may also defer capital gains taxes by reinvesting their
+              gains from the sale of QSBS into another QSBS within 60 days. This
+              allows for the postponement of tax payments and can help in
+              managing cash flows.
+              <br />
+              <br />
+              The provision for deferring capital gains taxes through
+              reinvestment in Qualified Small Business Stock (QSBS) offers an
+              additional financial advantage for investors. Under Section 1045
+              of the Internal Revenue Code, if an investor sells QSBS and
+              reinvests the gains into another QSBS within a 60-day period, they
+              can defer capital gains taxes that would otherwise be due on the
+              sale. This aspect of the tax code is particularly beneficial for
+              investors looking to continuously invest in small, innovative
+              companies while managing their tax liabilities more effectively.
             </p>
             <a href="#email-form" className="button-2 w-button">
               Check Eligibility
             </a>
           </div>
         </div>
+       
       </div>
+         <Process></Process>
+         <Timeline></Timeline>
       <div className="section-1">
         <div className="wrap-1">
-          <h2 className="heading-3">
-            <strong>Why Choose Los Angeles Tax Appeal?</strong>
+          <h2 className="text-4xl">
+            <strong>Why Choose QSBSLetter.com?</strong>
           </h2>
-          <p className="subhead-3">
+          {/* <p className="subhead-3">
             Utilizing our profound expertise in Los Angeles commercial real
             estate, our primary goal is to maximize your tax savings.
-          </p>
+          </p> */}
           <div className="column-wrap-1">
             <div className="column-1">
               <h4 className="column-1-title">Done-For-You</h4>
@@ -93,12 +117,13 @@ export default function Home() {
                 alt="green check mark"
                 className="icon"
               />
+              
               <p className="paragraph-3">
-                We&#x27;ll manage the commercial tax appeal process end-to-end
+                We&#x27;ll manage the QSBS attestation letter process end-to-end
               </p>
             </div>
             <div className="column-1">
-              <h4 className="column-1-title">CRE Tax Experts</h4>
+              <h4 className="column-1-title">QSBS Experts</h4>
               <Image
                 src={downloadImage}
                 width="100"
@@ -107,12 +132,12 @@ export default function Home() {
                 className="icon"
               />
               <p className="paragraph-3">
-                Los Angeles native representation and expertise
+               Legal and accounting experts on-hand for your attestation letter
               </p>
             </div>
             <div className="column-1">
               <h4 className="column-1-title">
-                <strong>Commitment Free</strong>
+                <>QSBS Focused</>
               </h4>
               <Image
                 src={downloadImage}
@@ -122,7 +147,7 @@ export default function Home() {
                 className="icon"
               />
               <p className="paragraph-3">
-                No upfront costs or fees until savings have been achieved
+               We focus 100% on QSBS so we're on top of the latest laws and compliance
               </p>
             </div>
           </div>
@@ -134,7 +159,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Check If You Qualify
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg f leading-8 text-gray-600">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat aliqua.
@@ -231,9 +256,9 @@ export default function Home() {
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Ready to dive in?
+            Ready to get started?
             <br />
-            Start your free trial today.
+            Check your QSBS eligibility today.
           </h2>
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
             <a

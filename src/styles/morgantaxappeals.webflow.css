@@ -132,7 +132,7 @@ p {
 
 .section-1 {
   min-height: 300px;
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
