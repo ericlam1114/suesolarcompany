@@ -4,8 +4,8 @@ import downloadImage from "../../public/images/check.webp";
 // import sfImage from "../../public/images/office.webp";
 import chart from "../../public/images/chart.webp";
 import defer from "../../public/images/defer.webp";
-import Process from '../../src/components/Process'
-import Timeline from '../../src/components/Timeline'
+import Process from "../../src/components/Process";
+import Timeline from "../../src/components/Timeline";
 // import building2 from "../../public/images/LAbuilding3.webp";
 
 import { Metadata } from "next";
@@ -94,10 +94,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-       
       </div>
-         <Process></Process>
-         <Timeline></Timeline>
+      <Process></Process>
+      <Timeline></Timeline>
       <div className="section-1">
         <div className="wrap-1">
           <h2 className="text-4xl">
@@ -117,7 +116,7 @@ export default function Home() {
                 alt="green check mark"
                 className="icon"
               />
-              
+
               <p className="paragraph-3">
                 We&#x27;ll manage the QSBS attestation letter process end-to-end
               </p>
@@ -132,7 +131,7 @@ export default function Home() {
                 className="icon"
               />
               <p className="paragraph-3">
-               Legal and accounting experts on-hand for your attestation letter
+                Legal and accounting experts on-hand for your attestation letter
               </p>
             </div>
             <div className="column-1">
@@ -147,7 +146,8 @@ export default function Home() {
                 className="icon"
               />
               <p className="paragraph-3">
-               We focus 100% on QSBS so we're on top of the latest laws and compliance
+                We focus 100% on QSBS so we're on top of the latest laws and
+                compliance
               </p>
             </div>
           </div>
@@ -175,21 +175,19 @@ export default function Home() {
       <div className="section-3">
         <div className="w-layout-blockcontainer w-container">
           <h2 className="heading-20">
-            Your Partner in LA County Commercial Property Tax Appeals
+            Your Premier QSBS Attestation Letter Service
           </h2>
           <p className="paragraph-10">
-            We stand as a nationwide advocate for property owners challenging
-            unfair property tax assessments. The Assessment Appeals Board offers
-            a formal avenue for your commercial property tax grievances. Our
-            all-encompassing service includes expert tax representatives and
-            appeal specialists who guide you through the complex appeal process.
-            We meticulously prepare and submit your property tax appeal
-            application, adhering to strict deadlines. Our team, comprising
-            licensed attorneys and real estate appraisers, excels in diverse
-            U.S. jurisdictions and focuses on disputing assessed values of
-            commercial properties, aiming to minimize your property tax
-            liability as determined by the tax assessor for the current tax
-            year.
+            As specialists in QSBS (Qualified Small Business Stock) attestation
+            letters, we provide crucial support for investors seeking to benefit
+            from the tax advantages associated with QSBS under Section 1202 of
+            the Internal Revenue Code. Our comprehensive service includes expert
+            guidance through the QSBS attestation process, ensuring your
+            investments comply with the stringent IRS regulations. Our team,
+            consisting of experienced tax professionals and legal advisors, is
+            proficient in navigating the complexities of QSBS criteria across
+            diverse U.S. jurisdictions, focusing on validating your stock’s
+            eligibility for significant capital gains tax exemptions.
           </p>
         </div>
         <div className="w-layout-blockcontainer w-container">
@@ -197,59 +195,54 @@ export default function Home() {
             Streamline Your Los Angeles County Commercial Property Tax Appeal
           </h2>
           <p className="paragraph-11">
-            More than just a service provider, we partner with you. We expertly
-            handle every aspect of the property tax appeal process, from meeting
-            filing deadlines to compiling necessary documentation. Our
-            proficiency spans dealing with county tax assessment divisions
-            nationwide, leveraging knowledge of fair market value and factored
-            base year assessments. This approach allows us to effectively
-            challenge your commercial property’s taxable value. Operating within
-            standard business hours, we ensure smooth coordination with
-            Assessment Appeals Board officers. We strive for efficient
-            processing and scheduling of your appeal, enhancing your chances for
-            tax savings. Our assistance makes navigating the intricacies of
-            property taxes and appeals more manageable, promising fair treatment
-            and potential savings for commercial property owners.
+            As specialists in QSBS (Qualified Small Business Stock) attestation
+            letters, we provide crucial support for investors seeking to benefit
+            from the tax advantages associated with QSBS under Section 1202 of
+            the Internal Revenue Code. Our comprehensive service includes expert
+            guidance through the QSBS attestation process, ensuring your
+            investments comply with the stringent IRS regulations. Our team,
+            consisting of experienced tax professionals and legal advisors, is
+            proficient in navigating the complexities of QSBS criteria across
+            diverse U.S. jurisdictions, focusing on validating your stock’s
+            eligibility for significant capital gains tax exemptions.
           </p>
         </div>
         <div className="w-layout-blockcontainer w-container">
-          <h2 className="heading-21">Secure Optimal Tax Savings</h2>
-          <h3 className="">
-            <strong>
-              Ensure Equitable Assessments for Your Commercial Property
-            </strong>
-          </h3>
+          <h2 className="heading-21">
+            Streamline Your QSBS Attestation Process
+          </h2>
+
           <p className="paragraph-11">
-            Property tax assessments are pivotal to commercial property
-            owners&apos; finances. Our team, skilled in the complexities of
-            property taxes, ensures you&apos;re not overburdened. We
-            meticulously examine tax assessments to guarantee fair property
-            valuation. Utilizing our knowledge of market trends and property
-            values, we contest unjust assessments to achieve tax reductions. Our
-            strategy includes analyzing comparable properties and market values,
-            aligning your tax duties with the genuine fair market value of your
-            property.
+            We are more than just a service provider; we are your partner in
+            maximizing your QSBS benefits. We handle every aspect of the QSBS
+            attestation process, from ensuring the accuracy of your stock
+            details to meeting critical submission deadlines. Our expertise
+            extends to dealing with the IRS’s stringent requirements, leveraging
+            our deep understanding of QSBS regulations. This expertise allows us
+            to effectively confirm the qualification of your stock as QSBS,
+            operating within standard business hours to ensure seamless
+            coordination with IRS representatives. Our goal is to simplify the
+            attestation process, enhancing your chances for tax savings and
+            making the complexities of QSBS compliance manageable, promising
+            thorough validation and potential savings for investors.
           </p>
         </div>
 
         <div className="w-layout-blockcontainer w-container">
-          <h2 className="heading-21">
-            Efficient Appeal Process for Effective Tax Management
-          </h2>
-          <h3 className="">
-            <strong>Demystifying Property Tax Appeals</strong>
-          </h3>
+          <h2 className="heading-21">Secure Optimal Tax Benefits with QSBS</h2>
+
           <p className="paragraph-11">
-            The property tax appeal journey can be intricate. We specialize in
-            demystifying this process, offering end-to-end support from filing
-            to the hearing. Our expertise covers the breadth of commercial
-            property tax appeals, including documentation preparation and
-            representing your interests at the Assessment Appeals Board. We aim
-            to minimize appeal-related costs and time while maximizing favorable
-            outcomes. Our seasoned tax professionals, familiar with various
-            jurisdictional tax laws, ensure precise and attentive handling of
-            your appeal, aligning our efforts with your needs for optimal appeal
-            results.
+            Ensure Compliance and Maximize Savings with Qualified Small Business
+            Stock For investors in small businesses, QSBS tax benefits are a key
+            financial consideration. Our skilled team ensures that your QSBS
+            investments are accurately represented and compliant, preventing you
+            from missing out on significant tax savings. We meticulously
+            evaluate your stock investments against QSBS criteria, ensuring fair
+            and legitimate qualification. Utilizing our expertise in tax law and
+            QSBS regulations, we challenge any discrepancies to secure rightful
+            tax reductions. Our approach includes a thorough analysis of your
+            stock's eligibility, aligning your investments with the true spirit
+            of QSBS benefits.
           </p>
         </div>
       </div>

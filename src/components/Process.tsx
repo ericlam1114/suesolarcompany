@@ -6,8 +6,8 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
-
-
+import Image from "next/image";
+import DesignImage from '../../public/images/criteria.webp'
 const features = [
   {
     name: "Push to deploy.",
@@ -66,17 +66,32 @@ export default function Example() {
             benefits, making it an integral component of legal and financial due
             diligence in QSBS transactions.
           </p>
+        
         </div>
       </div>
       <div className="relative overflow-hidden pt-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <img
-            src='../../public/images/criteria.webp'
+        <div className=" px-6 py-24 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-2xl text-center">
+        <h2 className="text-3xl font-bold tracking-tight text-black sm:text-6xl">Needed From You...</h2>
+       
+      </div>
+    </div>
+        <Image
+                src={DesignImage}
+                width={2432}
+                height={1442}
+                alt="green check mark"
+                className="icon"
+
+              />
+          {/* <img
+src={DesignImage}
             alt="criteria"
             className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
             width={2432}
             height={1442}
-          />
+          /> */}
           <div className="relative" aria-hidden="true">
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
           </div>
