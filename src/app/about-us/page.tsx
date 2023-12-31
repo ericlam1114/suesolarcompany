@@ -6,16 +6,16 @@ import jonMorganImage from '../../../public/images/jon-morgan.webp';
 import sloganImage from '../../../public/images/slogan.webp';
 
 export const metadata: Metadata = populateMetadata({
-  title: 'About Us | Los Angeles Tax Appeal | Commercial Property Assessment Appeal',
+  title: 'About Us | QSBS Attestation Letter | Online QSBS Service',
   description:
-    'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
+    'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
   openGraph: {
     description:
-      'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
+      'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
   },
   twitter: {
     description:
-      'Let us help you appeal your Los Angeles County commercial property taxes. Never pay more than your fair share.',
+      'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
   },
 });
 
@@ -42,25 +42,25 @@ const AboutUsPage: NextPage = () => {
           </div>
           <h1>About Us</h1>
           <p>
-          Los Angeles Tax Appeal, a distinguished commercial real estate tax appeal firm in Los Angeles County, caters to the needs of commercial property owners. Our objective is to safeguard our clients from unwarranted taxation by local tax authorities.
+          QSBS Attestation Services, a leading firm specializing in Qualified Small Business Stock (QSBS) attestation in the United States, is dedicated to serving the needs of investors and shareholders. Our mission is to protect our clients from potential tax complications and ensure they fully benefit from QSBS tax exemptions.
 
 <br />
             <br />
-            The task of dealing with assessor&apos;s offices can be intricate and demanding. At Los Angeles Tax Appeal, we capitalize on our robust connections with these offices, managing every element of the property tax appeal process. This encompasses the submission of appeal applications, data exchange, property value assessment, negotiation undertakings, representation at Assessment Appeals Boards, and tracking of refunds.
+            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBS Attestation Services, we leverage our deep expertise and strong connections within the financial and legal realms, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility, negotiating with tax authorities, and representing our clients' interests.
             <br />
             <br />
-            Our method involves crafting effective appeals using advanced valuation techniques and strong arguments, aimed at considerably reducing the taxable value of your property. We prioritize our clients&apos; interests, ensuring transparent and continuous communication throughout the appeal journey.
+            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients' needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
 
 
             <br />
             <br />
-            Los Angeles Tax Appeal is devoted to ensuring that you are only charged a fair amount in property taxes. Our team of experienced property tax consultants, equipped with proven strategies, has consistently secured significant tax reductions for our clients. We have a remarkable record of appealing successfully with Assessor’s Offices nationwide, achieving a 95% success rate and an average reduction in taxable value of 25%.
+            QSBS Attestation Services is committed to ensuring that your investments are accurately represented and qualify for the QSBS tax benefits they deserve. Our team of experienced tax professionals, armed with effective strategies and a profound understanding of QSBS regulations, has consistently helped clients achieve compliance and maximize their tax savings. We boast a remarkable track record of success, having assisted numerous investors nationwide in successfully meeting QSBS requirements.
 
 
+           
             <br />
             <br />
-            You can trust that your property&#x27;s valuation will be thoroughly reviewed and protected against excessive taxation by our expert team. We take pride in our exceptional customer service at Los Angeles Tax Appeal and are always available to address any inquiries or concerns at any stage of the appeal process.
-
+            You can be confident that your QSBS eligibility will be thoroughly reviewed and validated by our expert team. We pride ourselves on outstanding client service at QSBS Attestation Services and remain readily available to address any questions or concerns throughout the attestation process.
 
 
            
