@@ -61,6 +61,12 @@ export default defineType({
       title: 'Body',
       type: 'blockContent',
     }),
+    defineField({ // Add the FAQ field here
+      name: 'faqs',
+      title: 'FAQs',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'faq' } }],
+    }),
   ],
 
   preview: {

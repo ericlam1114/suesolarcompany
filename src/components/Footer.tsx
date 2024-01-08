@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
         <div className="legal">515 South Flower Street 18th and 19th Floors, Los Angeles, CA 90071</div>
         <div className="footer-bottom-wrap">
           <div className="legal">
-            © 2017, Skyline Tax Appeal, LLC. All Rights Reserved.{' '}
+            © 2017, QSBS Letter, LLC. All Rights Reserved.{' '}
           </div>
         </div>
       </div>

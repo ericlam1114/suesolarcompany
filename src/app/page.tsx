@@ -1,4 +1,4 @@
-import { HeroSection } from "@/components";
+import { BlogPostsGrid, HeroSection } from "@/components";
 import Image from "next/image";
 import downloadImage from "../../public/images/check.webp";
 // import sfImage from "../../public/images/office.webp";
@@ -11,12 +11,20 @@ import Timeline from "../../src/components/Timeline";
 import { Metadata } from "next";
 import Stats from "../components/Stats";
 import "../styles/globals.css";
+import { Post } from "@/types";
+import { client } from "../../sanity/lib/client";
 
 export const metadata: Metadata = {
   title: "QSBS Attestation Letter Online",
 };
 
-export default function Home() {
+export default async function Home() {
+
+ const posts = await client.fetch<Post[]>(
+  `*[_type == "post"]|order(publishedAt desc)`
+);
+
+const limitedPosts = posts.slice(0, 4); // Limit to 4 posts
   return (
     <>
       <HeroSection />
@@ -229,6 +237,10 @@ export default function Home() {
             of QSBS benefits.
           </p>
         </div>
+      </div>
+      <div id="blog-posts" className="blog-posts-section">
+        {/* <h2>Latest Blog Posts</h2> */}
+        <BlogPostsGrid posts={limitedPosts} /> {/* Add BlogPostsGrid with a limit prop */}
       </div>
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">

@@ -1,12 +1,21 @@
 import { BlogPostsGrid } from '@/components';
 import { NextPage, Metadata } from 'next';
+import { Post } from '@/types';
+import { client } from '@/utils';
 
 export const metadata:Metadata= {
    title:"Blog Posts"
   
 }
 
-const BlogPage: NextPage = () => {
+export const revalidate = 10
+
+const BlogPage: NextPage = async () => {
+  const posts = await client.fetch<Post[]>(
+    `*[_type == "post"]|order(publishedAt desc)`
+  );
+
+  const limitedPosts = posts.slice(0, 10); // Limit to 4 posts
   return (
     <>
       <div
@@ -16,7 +25,7 @@ const BlogPage: NextPage = () => {
         <h1>Blog Posts</h1>
       </div>
       <div className="w-dyn-list">
-        <BlogPostsGrid />
+        <BlogPostsGrid posts={limitedPosts} />
       </div>
     </>
   );
