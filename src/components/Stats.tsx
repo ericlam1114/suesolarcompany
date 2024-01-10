@@ -1,5 +1,7 @@
 import React from "react"
 import '../styles/morgantaxappeals.webflow.css'
+import './Tailwind.css'
+
 
 const stats = [
     { id: 1, name: 'Capital gains tax rate for federal purposes', value: '0%' },
