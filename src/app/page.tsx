@@ -10,7 +10,7 @@ import Timeline from "../../src/components/Timeline";
 
 import { Metadata } from "next";
 import Stats from "../components/Stats";
-import "../styles/globals.css";
+
 import { Post } from "@/types";
 import { client } from "../../sanity/lib/client";
 

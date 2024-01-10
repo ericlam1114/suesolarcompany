@@ -5,7 +5,7 @@ import '../styles/normalize.css';
 import '../styles/webflow.css';
 import '../styles/morgantaxappeals.webflow.css';
 import './globals.css';
-import "../styles/globals.css";
+
 
 import { populateMetadata } from '@/utils';
 import '../styles/morgantaxappeals.webflow.css';
