@@ -15,7 +15,7 @@ export const HeroSection: React.FC = () => {
             <strong className="bold-text-2">
               
 
-              Let us handle the IRS compliance and eligibility, while you focus on the growth and success of your business.
+            Formally certify your eligibility for QSBS. We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.
             </strong>
           </p>
         </div>
