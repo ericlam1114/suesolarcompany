@@ -15,7 +15,7 @@ import { Post } from "@/types";
 import { client } from "../../sanity/lib/client";
 
 export const metadata: Metadata = {
-  title: "QSBS Attestation Letter Online",
+  title: "QSBS Attestation Letter Service | IRS Compliant QSBS Service",
 };
 
 export default async function Home() {
