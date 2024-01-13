@@ -15,7 +15,7 @@ const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 export const revalidate = 300000
 
 export const metadata: Metadata = populateMetadata({
-  title: 'QSBS Attestation Letter Online | IRS Compliant QSBS Service',
+  title: 'QSBS Attestation Letter Service | IRS Compliant QSBS Service',
   description:
     'We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.',
 });

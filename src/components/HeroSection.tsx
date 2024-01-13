@@ -8,7 +8,7 @@ export const HeroSection: React.FC = () => {
         <div className="hero-left">
           <h1 className="heading-1">
             <strong className="bold-text">
-          QSBS Attestation Letter Online
+            QSBS Attestation Letter Service
             </strong>
           </h1>
           <p className="subhead-1">
