@@ -17,7 +17,7 @@ export const revalidate = 300000
 export const metadata: Metadata = populateMetadata({
   title: 'QSBS Attestation Letter Online | IRS Compliant QSBS Service',
   description:
-    'Let us handle the IRS compliance and eligibility, while you focus on the growth and success of your business.',
+    'We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.',
 });
 
 export default function RootLayout({
