@@ -109,7 +109,7 @@ export default async function Home() {
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 This incentive not only promotes growth in innovative startups
-                but also enhances investors' financial strategies through
+                but also enhances investors&apos; financial strategies through
                 tax-efficient investments.
               </p>
               <div className="mt-10 flex md:lg:pt-8 pt-0 items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
