@@ -33,7 +33,7 @@ const timeline = [
 export default function Example() {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white pt-36">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             How It Works
@@ -51,7 +51,7 @@ export default function Example() {
               <div key={item.description}>
                 <time
                   dateTime={item.description}
-                  className="flex items-center text-sm font-semibold leading-6 text-indigo-600"
+                  className="flex items-center text-sm font-semibold leading-6 text-blue-600"
                 >
                   <svg
                     viewBox="0 0 4 4"

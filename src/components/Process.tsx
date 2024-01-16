@@ -49,42 +49,49 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-12 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">
+          <h2 className="text-base font-semibold leading-7 text-blue-600">
             Section 1202 of the Internal Revenue Code
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            QSBS Attestation Letter is Critical
+          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Why Do You Need QSBS Attestation Letter?
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            For demonstrating compliance with IRS regulations and validating the
-            taxpayer&lsquos claim for QSBS benefits, thereby acting as a supportive
-            document during audits. Investors request this letter as proof that
+            Attestation letters are a defensible tool that ensures compliance with IRS regulations and validates the
+            taxpayer&apos;s claim for QSBS benefits, thereby acting as a supportive
+            document during audits. Founders and Investors request this letter as proof that
             their investment meets the necessary criteria for expected tax
             benefits, making it an integral component of legal and financial due
             diligence in QSBS transactions.
           </p>
-        
+          <div className="pt-8">
+         <a
+              href="/blog"
+              className="text-sm  font-semibold leading-6 text-blue-600"
+            >
+              Learn more <span aria-hidden="true">→</span>
+            </a>
+            </div>
         </div>
       </div>
-      <div className="relative overflow-hidden pt-16">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className=" px-6 py-24 sm:py-32 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-black sm:text-6xl">Needed From You...</h2>
+      {/* <div className="relative overflow-hidden pt-16"> */}
+        {/* <div className="mx-auto max-w-7xl px-6 lg:px-8"> */}
+        {/* <div className=" px-6 py-24 sm:py-32 lg:px-8"> */}
+      {/* <div className="mx-auto max-w-2xl text-center"> */}
+        {/* <h2 className="text-3xl font-bold tracking-tight text-black sm:text-6xl">Needed From You...</h2> */}
        
-      </div>
-    </div>
-        <Image
+      {/* </div> */}
+    {/* </div> */}
+        {/* <Image
                 src={DesignImage}
                 width={2432}
                 height={1442}
                 alt="green check mark"
                 className="icon"
 
-              />
+              /> */}
           {/* <img
 src={DesignImage}
             alt="criteria"
@@ -92,11 +99,11 @@ src={DesignImage}
             width={2432}
             height={1442}
           /> */}
-          <div className="relative" aria-hidden="true">
+          {/* <div className="relative" aria-hidden="true">
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
         {/* <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
@@ -113,6 +120,6 @@ src={DesignImage}
           ))}
         </dl> */}
       </div>
-    </div>
+     </div>
   );
 }

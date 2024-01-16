@@ -73,7 +73,7 @@ export const ContactForm: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="heading-6 md:lg:pt-4">Check your eligibility</h2>
+        <h2 className="heading-6 md:lg:pt-4">Check Your Eligibility</h2>
         <p className="paragraph-6">
           Get a free QSBS eligibility review
         </p>
