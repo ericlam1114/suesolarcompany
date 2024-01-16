@@ -176,7 +176,7 @@ export const ContactForm: React.FC = () => {
           <div className="div-block">
             <button
               type="submit"
-              className="submit-button-2 bg-sky-400 w-button"
+              className="submit-button-2 bg-blue-600 shadow-lg w-button"
               disabled={isLoading}
             >
               {isLoading ? "Please wait..." : "Submit"}
