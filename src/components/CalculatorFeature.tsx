@@ -7,7 +7,7 @@ export default function Example() {
         <p className="text-base font-semibold leading-7 text-blue-600">Introducing</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">QSBS Online Qualification Calculator</h1>
         <p className="mt-6 text-xl leading-8">
-        Using the free QSBS (Qualified Small Business Stock) Calculator is straightforward and user-friendly. Here's a guide on how to effectively use the calculator to estimate potential tax benefits under the QSBS rules:
+        Using the free QSBS (Qualified Small Business Stock) Calculator is straightforward and user-friendly. Here&apos;s a guide on how to effectively use the calculator to estimate potential tax benefits under the QSBS rules:
         </p>
         <div className="mt-10 max-w-2xl">
         <h2 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Instructions</h2>
@@ -39,19 +39,19 @@ export default function Example() {
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Step 4:</strong> In the field labeled "Purchase Price," enter the amount you paid for the stock. This is your basis in the stock and is used to calculate the capital gain and potential QSBS exclusion.
+                <strong className="font-semibold text-gray-900">Step 4:</strong> In the field labeled &apos;Purchase Price,&apos; enter the amount you paid for the stock. This is your basis in the stock and is used to calculate the capital gain and potential QSBS exclusion.
               </span>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Step 5:</strong> In the "Sale Price" field, input the amount for which you sold the stock. This figure is used to calculate your capital gain.
+                <strong className="font-semibold text-gray-900">Step 5:</strong> In the &apos;Sale Price&apos; field, input the amount for which you sold the stock. This figure is used to calculate your capital gain.
               </span>
             </li>
             <li className="flex gap-x-3">
               <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
               <span>
-                <strong className="font-semibold text-gray-900">Step 6:</strong> After filling in all the fields, click the "Calculate" button. The calculator will process your inputs and provide an estimation of your holding period, capital gain, QSBS exclusion amount, and taxable gain.
+                <strong className="font-semibold text-gray-900">Step 6:</strong> After filling in all the fields, click the &apos;Calculate&apos; button. The calculator will process your inputs and provide an estimation of your holding period, capital gain, QSBS exclusion amount, and taxable gain.
 
               </span>
             </li>
