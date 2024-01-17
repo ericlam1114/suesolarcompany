@@ -23,7 +23,7 @@ const BlogPage: NextPage = async () => {
         style={{ paddingLeft: '1rem' }}
       >
         <h1>Blog Posts</h1>
-        <a href="/qsbs-calculator">click here</a>
+        {/* <a href="/qsbs-calculator">click here</a> */}
       </div>
       <div className="w-dyn-list">
         <BlogPostsGrid posts={limitedPosts} />
