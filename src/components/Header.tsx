@@ -19,6 +19,10 @@ const links = [
     href: '/services',
     label: 'Services',
   },
+  {
+    href: '/qsbs-calculator',
+    label: 'Calculator',
+  },
   // {
   //   href: '/free-tax-review',
   //   label: 'Free Tax Review',

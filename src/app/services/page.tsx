@@ -5,6 +5,7 @@ import Link from "next/link";
 import declineInValueImage from "../../../public/images/decline-in-value.webp";
 import officeBuildingConstructionImage from "../../../public/images/office-building-construction.webp";
 
+
 export const metadata = populateMetadata({
   title: 'About Us | QSBS Attestation Letter | Online QSBS Service',
   description:
