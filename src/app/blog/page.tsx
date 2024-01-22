@@ -15,7 +15,7 @@ const BlogPage: NextPage = async () => {
     `*[_type == "post"]|order(publishedAt desc)`
   );
 
-  const limitedPosts = posts.slice(0, 25); // Limit to 4 posts
+  const limitedPosts = posts.slice(0, 50); // Limit to 4 posts
   return (
     <>
       <div
