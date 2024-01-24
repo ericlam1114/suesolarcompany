@@ -1,4 +1,5 @@
 import { Footer, Header } from '@/components';
+import Script from 'next/script';
 import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import '../styles/normalize.css';
@@ -34,9 +35,21 @@ export default function RootLayout({
 }) {
   return (
     <>
-    {typeof window !== 'undefined' && (
-  <GoogleAnalytics trackPageViews gaMeasurementId="G-QF1DB5KPSE" />
-)}
+    {/* Global Site Tag (gtag.js) - Google Analytics */}
+    <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-QF1DB5KPSE`}
+      />
+      <Script id="google-analytics-script" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QF1DB5KPSE', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
   
     <html lang="en">
       <body className={openSans.className}>
