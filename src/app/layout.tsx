@@ -5,6 +5,8 @@ import '../styles/normalize.css';
 import '../styles/webflow.css';
 import '../styles/morgantaxappeals.webflow.css';
 import './globals.css';
+// import { GoogleAnalytics } from "nextjs-google-analytics";
+import dynamic from 'next/dynamic';
 
 
 import { populateMetadata } from '@/utils';
@@ -20,12 +22,22 @@ export const metadata: Metadata = populateMetadata({
     'We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.',
 });
 
+const GoogleAnalytics = dynamic(
+  () => import("nextjs-google-analytics").then((mod) => mod.GoogleAnalytics),
+  { ssr: false }
+);
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
+    <>
+    {typeof window !== 'undefined' && (
+  <GoogleAnalytics trackPageViews gaMeasurementId="G-QF1DB5KPSE" />
+)}
+  
     <html lang="en">
       <body className={openSans.className}>
         <Header />
@@ -33,5 +45,6 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
+    </>
   );
 }
