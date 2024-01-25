@@ -24,7 +24,7 @@ const ServicesPage: NextPage = () => {
           {/* <ResponsiveImage src={declineInValueImage} alt="Decline in Value"/> */}
           <div className="service">
   <h2 className="text-xl pb-4 pt-8">Service 1: QSBS Valuation Analysis</h2>
-  <p>Our QSBS Valuation Analysis provides an in-depth evaluation of your company's financials to ascertain if your stock qualifies for QSBS. Our experts conduct a thorough review of your business's asset value, revenue streams, and growth potential to ensure compliance with QSBS criteria. This service is essential for businesses aiming to leverage the tax advantages of QSBS.</p>
+  <p>Our QSBS Valuation Analysis provides an in-depth evaluation of your company&apos;s financials to ascertain if your stock qualifies for QSBS. Our experts conduct a thorough review of your business&apos;s asset value, revenue streams, and growth potential to ensure compliance with QSBS criteria. This service is essential for businesses aiming to leverage the tax advantages of QSBS.</p>
 </div>
 <div className="service">
   {/* <ResponsiveImage src={officeBuildingConstructionImage} alt="Office Building Construction"/> */}
