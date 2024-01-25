@@ -4,6 +4,7 @@ import { Metadata, NextPage } from 'next';
 import ericLamImage from '../../../public/images/eric-lam.webp';
 import jonMorganImage from '../../../public/images/jon-morgan.webp';
 import sloganImage from '../../../public/images/slogan.webp';
+import './Tailwind.css'
 
 export const metadata: Metadata = populateMetadata({
   title: 'About Us | QSBS Attestation Letter | Online QSBS Service',
@@ -40,27 +41,27 @@ const AboutUsPage: NextPage = () => {
               sizes="(max-width: 479px) 100%, (max-width: 767px) 100%, (max-width: 991px) 728px, 940px"
             /> */}
           </div>
-          <h1>About Us</h1>
+          <h1 className="text-2xl pt-4 pb-6">About Us</h1>
           <p>
-          QSBS Attestation Services, a leading firm specializing in Qualified Small Business Stock (QSBS) attestation in the United States, is dedicated to serving the needs of investors and shareholders. Our mission is to protect our clients from potential tax complications and ensure they fully benefit from QSBS tax exemptions.
+          QSBSLetter, a leading firm specializing in Qualified Small Business Stock (QSBS) attestation letters, is dedicated to serving the needs of investors and shareholders. Our mission is to protect our clients from potential tax complications and ensure they fully benefit from QSBS tax exemptions.
 
 <br />
             <br />
-            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBS Attestation Services, we leverage our deep expertise and strong connections within the financial and legal realms, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility, negotiating with tax authorities, and representing our clients&lsquo interests.
+            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBLetter, we leverage our deep expertise and strong connections within the financial and legal market, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility and providing attestation letters.
             <br />
             <br />
-            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients&lsquo needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
+            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
 
 
             <br />
             <br />
-            QSBS Attestation Services is committed to ensuring that your investments are accurately represented and qualify for the QSBS tax benefits they deserve. Our team of experienced tax professionals, armed with effective strategies and a profound understanding of QSBS regulations, has consistently helped clients achieve compliance and maximize their tax savings. We boast a remarkable track record of success, having assisted numerous investors nationwide in successfully meeting QSBS requirements.
+            QSBSLetter is committed to ensuring that your investments are accurately represented and qualify for the QSBS tax benefits they deserve. Our team of experienced tax professionals, armed with effective strategies and a profound understanding of QSBS regulations, has consistently helped clients achieve compliance and maximize their tax savings. We are the #1 online native attestation letter service.
 
 
            
             <br />
             <br />
-            You can be confident that your QSBS eligibility will be thoroughly reviewed and validated by our expert team. We pride ourselves on outstanding client service at QSBS Attestation Services and remain readily available to address any questions or concerns throughout the attestation process.
+            You can be confident that your QSBS eligibility will be thoroughly reviewed and validated by our expert team. We pride ourselves on outstanding client service at QSBSLetter and remain readily available to address any questions or concerns throughout the attestation process.
 
 
            
