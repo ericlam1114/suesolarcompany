@@ -18,7 +18,7 @@ const FounderProfile = () => {
         <h2 className="text-3xl font-bold mb-4">Michael Garcia</h2>
         <h3 className="text-xl font-semibold mb-2">Certified Public Accountant</h3>
         <p className="text-base">
-        Michael Garcia, our esteemed Certified Public Accountant, brings a wealth of financial acumen to the helm of QSBS Letter. With a seasoned background in accounting and a sharp eye for strategic tax planning, Michael's expertise is pivotal to our operation. His journey in finance has been marked by a keen understanding of the QSBS landscape, ensuring our clients benefit from every available tax advantage. Michael's approach combines rigorous analysis with personalized service, making the complex QSBS attestation process both understandable and accessible for our clientele. His commitment to excellence and ethical practice stands as a cornerstone of our firm's reputation.
+        Michael Garcia, our esteemed Certified Public Accountant, brings a wealth of financial acumen to the helm of QSBS Letter. With a seasoned background in accounting and a sharp eye for strategic tax planning, Michael&#39;s expertise is pivotal to our operation. His journey in finance has been marked by a keen understanding of the QSBS landscape, ensuring our clients benefit from every available tax advantage. Michael&#39;s approach combines rigorous analysis with personalized service, making the complex QSBS attestation process both understandable and accessible for our clientele. His commitment to excellence and ethical practice stands as a cornerstone of our firm&#39;s reputation.
         </p>
       </div>
     </div>
