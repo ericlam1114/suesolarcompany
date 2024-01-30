@@ -5,6 +5,7 @@ import ericLamImage from '../../../public/images/eric-lam.webp';
 import jonMorganImage from '../../../public/images/jon-morgan.webp';
 import sloganImage from '../../../public/images/slogan.webp';
 import './Tailwind.css'
+import Founder from './founder'
 
 export const metadata: Metadata = populateMetadata({
   title: 'About Us | QSBS Attestation Letter | Online QSBS Service',
@@ -146,9 +147,12 @@ const AboutUsPage: NextPage = () => {
                     commercial real estate appraiser&#x27;s.{' '}
                   </p> */}
                 {/* </div> */}
+
               </div>
+
             </div>
           </div>
+          <Founder></Founder>
         </div>
       </div>
     </>
