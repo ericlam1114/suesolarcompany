@@ -6,7 +6,10 @@ import chart from "../../public/images/chart.webp";
 import defer from "../../public/images/defer.webp";
 import Process from "../../src/components/Process";
 import Timeline from "../../src/components/Timeline";
-import handshakeImage from "../../public/images/handshake.png";
+import image1 from "../../public/images/image1.webp";
+import image2 from "../../public/images/image2.webp";
+import image3 from "../../public/images/image3.webp";
+import image4 from "../../public/images/image4.webp";
 import ThreeModule from "../components/ThreeModule";
 import investors from "../../public/images/investors.png";
 
@@ -19,7 +22,7 @@ import { Post } from "@/types";
 import { client } from "../../sanity/lib/client";
 
 export const metadata: Metadata = {
-  title: "QSBS Attestation Letter Service | IRS Compliant QSBS Service",
+  title: "Solar Company Legal Support | Your Ally in Solar Lawsuits",
 };
 
 export default async function Home() {
@@ -37,32 +40,25 @@ export default async function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="max-w-2xl">
               <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Founders Leverage QSBS
+                Stand Against Solar Scams
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                QSBS allows founders to potentially exclude up to 100% of
-                capital gains from federal taxes on the sale of their stock,
-                provided they meet{" "}
-                <a
-                  href="https://www.qsbsletter.com/blog/official-qsbs-criteria"
-                  className="text-blue-600"
-                  target="_blank"
-                >
-                  specific criteria
-                </a>{" "}
-                and hold the stock for at least five years.
+                We specialize in helping clients who have been misled or harmed
+                by solar companies. Our mission is to ensure you receive justice
+                and compensation for any fraudulent practices, poor
+                installations, or contract breaches.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Strategic planning is crucial for founders to maximize these
-                benefits, ensuring long-term investment in their ventures and
-                alignment with QSBS regulations.
+                Our team provides expert legal advice, guiding you through the
+                complex process of building a case against deceptive solar
+                companies.
               </p>
               <div className="mt-10 flex md:lg:pt-8 pt-0 items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
                 <a
                   href="#"
                   className="rounded-md  bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Check Eligibility
+                  Learn More
                 </a>
                 {/* <a
               href="/blog"
@@ -75,11 +71,11 @@ export default async function Home() {
 
             <div className="mt-10 lg:mt-0 lg:flex-shrink-0 ">
               <Image
-                src={handshakeImage}
+                src={image1}
                 width="500"
                 height="500"
                 className="rounded-md"
-                alt="Handshake"
+                alt="solar scam"
               />
             </div>
           </div>
@@ -90,45 +86,45 @@ export default async function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="mt-10 lg:mt-0 lg:flex-shrink-0 ">
               <Image
-                src={investors}
+                src={image2}
                 width="500"
                 height="500"
                 className="rounded-md"
-                alt="investors"
+                alt="solar scam"
               />
             </div>
             <div className="max-w-2xl">
               <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Investors Leverage QSBS
+                Expert Legal Assistance for Solar Company Disputes
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Investors can exclude a significant portion, up to 100%, of
-                capital gains from federal taxes when selling their stock. QSBS
-                serves as a strategic tool for investors aiming to diversify
-                portfolios while supporting high-growth potential businesses.
+                We provide specialized legal assistance for disputes with solar
+                companies. Our team of experienced lawyers is dedicated to
+                protecting your rights and ensuring fair compensation for any
+                malpractices.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                This incentive not only promotes growth in innovative startups
-                but also enhances investors&apos; financial strategies through
-                tax-efficient investments.
+                We thoroughly review contracts, gather necessary evidence, and
+                represent you in legal proceedings, aiming to achieve the best
+                possible outcome for your case.
               </p>
               <div className="mt-10 flex md:lg:pt-8 pt-0 items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
                 <a
                   href="#"
                   className="rounded-md  bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Check Eligibility
+                  Learn More
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Process></Process>
+      {/* <Process></Process> */}
       <div className="section-1">
         <div className="wrap-1">
           <h2 className="text-4xl">
-            <strong>Why Choose QSBSLetter.com?</strong>
+            <strong>Why Choose SueSolarCompany.com?</strong>
           </h2>
           {/* <p className="subhead-3">
             Utilizing our profound expertise in Los Angeles commercial real
@@ -180,7 +176,7 @@ export default async function Home() {
             </div>
           </div> */}
           <ThreeModule></ThreeModule>
-          <Timeline></Timeline>
+          {/* <Timeline></Timeline> */}
         </div>
       </div>
 
@@ -191,7 +187,7 @@ export default async function Home() {
               Section 1202 of the Internal Revenue Code
             </h2> */}
             <h2 className="mt-2 text-4xl text-center font-bold tracking-tight text-gray-900 sm:text-5xl">
-             The QSBS Benefits
+              Legal Support Against Solar Companies
             </h2>
             {/* <p className="mt-6 text-lg leading-8 text-gray-600">
               Attestation letters are a defensible tool that ensures compliance
@@ -263,44 +259,41 @@ src={DesignImage}
       <div className="class-section">
         <div className="wrap-2 a">
           <div className="left-1">
-            <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-4xl">Capital Gains Tax Exclusion</h2>
+            <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Protecting Your Investment
+            </h2>
             <p className="mt-6 text-lg text-left leading-8 text-gray-600">
-              One of the primary benefits of QSBS is the ability to exclude up
-              to 100% of capital gains from federal income taxes on the sale of
-              the stock, subject to certain limits. This exclusion is capped at
-              the greater of $10 million or 10 times the taxpayer&apos;s basis
-              in the stock.
+              One of the primary services we offer is the protection of your
+              investment against fraudulent solar companies. This includes
+              helping you recover losses from unfulfilled contracts or poorly
+              executed installations. We work to ensure you receive compensation
+              for any financial harm experienced due to malpractices by solar
+              companies.
               <br></br>
               <br></br>
-              The Qualified Small Business Stock (QSBS) provision, outlined in
-              Section 1202 of the Internal Revenue Code, presents a significant
-              tax incentive for investors in small businesses, particularly
-              through the capital gains tax exclusion. The primary attraction of
-              QSBS is the potential to exclude up to 100% of capital gains from
-              federal income taxes when the stock is sold, provided certain
-              conditions are met. This exclusion is subject to a cap, which is
-              the greater of $10 million or 10 times the taxpayer&apos;s basis
-              in the stock. For example, if an investor&apos;s initial
-              investment (basis) in the stock is $1 million, they could
-              potentially exclude up to $10 million in gains from their taxable
-              income.
+              Our focus is on defending your rights as a consumer. If a solar
+              company has misled you or failed to deliver promised services, our
+              legal expertise can be instrumental in pursuing your claims. This
+              could involve reimbursement for the cost of the solar system,
+              additional damages for fraudulent practices, or compensation for
+              any consequent property damage.
             </p>
             <div className="mt-10 flex justify-center md:lg:pt-8 pt-0 items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-                <a
-                  href="#email-form"
-                  className="rounded-md   bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Check Eligibility
-                </a>
-              </div>
+              <a
+                href="#email-form"
+                className="rounded-md   bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
           <div className="right-1">
             <Image
-              src={chart}
+              src={image3}
               width="500"
               height="500"
               alt="chart"
-              className=""
+              className="solar field"
             />
           </div>
         </div>
@@ -308,11 +301,11 @@ src={DesignImage}
         <div className="wrap-2 a">
           <div className="right-1">
             <Image
-              src={defer}
+              src={image4}
               width="500"
               height="500"
               alt="deferal"
-              className=""
+              className="law"
             />
           </div>
           <div className="left-1">
@@ -341,32 +334,31 @@ src={DesignImage}
                 </p>
               </div>
             </div> */}
-            <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-6xl">Deferral of Capital Gains</h2>
+            <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Understanding Your Legal Options
+            </h2>
             <p className="mt-6 text-lg text-left leading-8 text-gray-600">
-              Investors may also defer capital gains taxes by reinvesting their
-              gains from the sale of QSBS into another QSBS within 60 days. This
-              allows for the postponement of tax payments and can help in
-              managing cash flows.
+              It's essential to understand the variety of legal options
+              available when dealing with solar company disputes. Our team helps
+              in evaluating your case, determining the most effective legal
+              strategy, whether it's seeking damages through a lawsuit or
+              resolving issues via mediation or arbitration.
               <br />
               <br />
-              The provision for deferring capital gains taxes through
-              reinvestment in Qualified Small Business Stock (QSBS) offers an
-              additional financial advantage for investors. Under Section 1045
-              of the Internal Revenue Code, if an investor sells QSBS and
-              reinvests the gains into another QSBS within a 60-day period, they
-              can defer capital gains taxes that would otherwise be due on the
-              sale. This aspect of the tax code is particularly beneficial for
-              investors looking to continuously invest in small, innovative
-              companies while managing their tax liabilities more effectively.
+              The legal framework governing solar company contracts and consumer
+              rights can be complex, but our expertise ensures that you are well
+              informed about your rights and potential courses of action. We
+              guide you through each step, from gathering evidence to presenting
+              your case, ensuring the best possible outcome.
             </p>
             <div className="mt-10 flex md:lg:pt-8 pt-0 justify-center items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-                <a
-                  href="#email-form"
-                  className="rounded-md  bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Check Eligibility
-                </a>
-              </div>
+              <a
+                href="#email-form"
+                className="rounded-md  bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-lg hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -374,7 +366,7 @@ src={DesignImage}
       <div className="bg-white 8 ">
         <div className="mx-auto max-w-2xl pt-12 pb-8 text-center">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          Synonymous With Eligibility
+            Committed to Your Rights
           </h2>
           {/* <p className="mt-6 text-lg f leading-8 text-gray-600">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
@@ -393,68 +385,57 @@ src={DesignImage}
       <div className="section-3">
         <div className="w-layout-blockcontainer w-container">
           <h2 className="text-4xl pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-3xl">
-            Your Premier QSBS Attestation Letter Service
+            Expert Legal Support Against Solar Companies
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            As specialists in QSBS (Qualified Small Business Stock) attestation
-            letters, we provide crucial support for investors seeking to benefit
-            from the tax advantages associated with QSBS under Section 1202 of
-            the Internal Revenue Code. Our comprehensive service includes expert
-            guidance through the QSBS attestation process, ensuring your
-            investments comply with the stringent IRS regulations. Our team,
-            consisting of experienced tax professionals and legal advisors, is
-            proficient in navigating the complexities of QSBS criteria across
-            diverse U.S. jurisdictions, focusing on validating your stock’s
-            eligibility for significant capital gains tax exemptions.
+            We specialize in providing legal support for clients affected by the
+            deceptive practices of solar companies. Our team, composed of
+            experienced legal professionals, is committed to ensuring that your
+            case is handled with the utmost diligence and expertise, guiding you
+            through every step of the legal process. We focus on obtaining fair
+            compensation and justice for our clients, addressing issues like
+            contract breaches, substandard installations, and fraudulent claims.
           </p>
         </div>
 
         <div className="w-layout-blockcontainer w-container">
           <h2 className="text-4xl sm:mt-12 pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-3xl">
-            Streamline the QSBS Attestation Process
+            Navigating Legal Challenges
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We are more than just a service provider; we are your partner in
-            maximizing your QSBS benefits. We handle every aspect of the QSBS
-            attestation process, from ensuring the accuracy of your stock
-            details to meeting critical submission deadlines. Our expertise
-            extends to dealing with the IRS&apos;s stringent requirements, leveraging
-            our deep understanding of QSBS regulations. This expertise allows us
-            to effectively confirm the qualification of your stock as QSBS,
-            operating within standard business hours to ensure seamless
-            coordination with IRS representatives. Our goal is to simplify the
-            attestation process, enhancing your chances for tax savings and
-            making the complexities of QSBS compliance manageable, promising
-            thorough validation and potential savings for investors.
+            Our service goes beyond just representing you in court; we provide a
+            comprehensive approach to legal challenges. This includes gathering
+            evidence, preparing legal documents, and representing you in
+            negotiations or court proceedings. We understand the intricacies of
+            solar company contracts and consumer laws, ensuring that your case
+            is built on a solid foundation.
           </p>
         </div>
 
         <div className="w-layout-blockcontainer w-container">
-          <h2 className="text-4xl sm:mt-12 pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-3xl">Secure Optimal Tax Benefits with QSBS</h2>
+          <h2 className="text-4xl sm:mt-12 pt-8 md:lg:pt-0 font-bold tracking-tight text-gray-900 sm:text-3xl">
+            Your Ally in Legal Disputes
+          </h2>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Ensure Compliance and Maximize Savings with Qualified Small Business
-            Stock For investors in small businesses, QSBS tax benefits are a key
-            financial consideration. Our skilled team ensures that your QSBS
-            investments are accurately represented and compliant, preventing you
-            from missing out on significant tax savings. We meticulously
-            evaluate your stock investments against QSBS criteria, ensuring fair
-            and legitimate qualification. Utilizing our expertise in tax law and
-            QSBS regulations, we challenge any discrepancies to secure rightful
-            tax reductions. Our approach includes a thorough analysis of your
-            stock&lsquos eligibility, aligning your investments with the true
-            spirit of QSBS benefits.
+            We are your ally in seeking justice against unfair practices by
+            solar companies. Our commitment is to protect your interests and
+            ensure that your voice is heard. We diligently work to secure the
+            best possible outcome, whether it involves a financial settlement,
+            corrective action, or other forms of legal redress. Trust us to
+            stand with you at every step, championing your rights and seeking
+            accountability from those who have wronged you.
           </p>
         </div>
       </div>
       <div id="blog-posts" className="blog-posts-section">
         {/* <h2 className="text-4xl font-semibold">Learn About QSBS</h2> */}
         {/* <div className="bg-white px-6 py-24 sm:py-32 lg:px-8"> */}
-        <div className="mx-auto max-w-2xl text-center">
+        {/* <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Learn About QSBS
-          </h2>
+          </h2> */}
           {/* <p className="mt-6 text-lg f leading-8 text-gray-600">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
@@ -467,15 +448,15 @@ src={DesignImage}
           </a>
         </div> */}
         </div>
-        <BlogPostsGrid posts={limitedPosts} />{" "}
+        {/* <BlogPostsGrid posts={limitedPosts} />{" "} */}
         {/* Add BlogPostsGrid with a limit prop */}
-      </div>
+      {/* </div> */}
       <div className="bg-white">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Ready to get started?
             <br />
-            Check your QSBS eligibility today.
+            Tell us about your case.
           </h2>
           <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
             <a

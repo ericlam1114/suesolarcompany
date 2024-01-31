@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <div className="footer-top">
         <div className="footer-top-wrap">
           <div className="footer-link-wrap">
-            <a href="mailto:sftaxappeals@gmail.com" className="footer-link">
+            <a href="mailto:info@suesolarcompany.com" className="footer-link">
               Contact
             </a>
             <Link

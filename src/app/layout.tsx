@@ -18,9 +18,9 @@ const openSans = Open_Sans({ subsets: ['latin'], display: 'block' });
 export const revalidate = 300000
 
 export const metadata: Metadata = populateMetadata({
-  title: 'QSBS Attestation Letter Service | IRS Compliant QSBS Service',
+  title: 'Solar Company Legal Support | Your Ally in Solar Lawsuits',
   description:
-    'We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.',
+    'We offer robust evidence and legal support to demonstrate that your solar company has violated contractual agreements or consumer protection laws.',
 });
 
 const GoogleAnalytics = dynamic(
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <>
     {/* Global Site Tag (gtag.js) - Google Analytics */}
-    <Script
+    {/* <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-QF1DB5KPSE`}
       />
@@ -49,7 +49,7 @@ export default function RootLayout({
             page_path: window.location.pathname,
           });
         `}
-      </Script>
+      </Script> */}
   
     <html lang="en">
       <body className={openSans.className}>

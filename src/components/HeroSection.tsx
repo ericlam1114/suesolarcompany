@@ -8,14 +8,14 @@ export const HeroSection: React.FC = () => {
         <div className="hero-left">
           <h1 className="heading-1">
             <strong className="bold-text">
-            QSBS Attestation Letter Service
+            Sue Your Solar Company
             </strong>
           </h1>
           <p className="subhead-1">
             <strong className="bold-text-2">
               
 
-            Formally certify your eligibility for QSBS. We provide you with defensible proof that your investment meets the specific Internal Revenue Code, Section 1202 requirements.
+            Our expertise helps you navigate the complex legal landscape, providing you with solid evidence and support to sue your solar company effectively.
             </strong>
           </p>
         </div>

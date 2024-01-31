@@ -73,9 +73,9 @@ export const ContactForm: React.FC = () => {
   return (
     <div>
       <div>
-        <h2 className="heading-6 md:lg:pt-4">Check Your Eligibility</h2>
+        <h2 className="heading-6 md:lg:pt-4">Tell Us About Your Case</h2>
         <p className="paragraph-6">
-          Get a free QSBS eligibility review
+          Get a free case review below
         </p>
       </div>
       {!isSubmitted && (
@@ -112,7 +112,7 @@ export const ContactForm: React.FC = () => {
                 type="text"
                 className="w-input"
                 data-name="Job Title"
-                placeholder="Job Title*"
+                placeholder="Location*"
                 {...form.register("jobTitle", {
                   required: true,
                   maxLength: 256,
@@ -136,7 +136,7 @@ export const ContactForm: React.FC = () => {
                 type="text"
                 className="w-input"
                 data-name="Company"
-                placeholder="Company*"
+                placeholder="Solar Company*"
                 {...form.register("company", {
                   required: true,
                   maxLength: 256,
@@ -157,7 +157,7 @@ export const ContactForm: React.FC = () => {
             </div>
           </div>
           <textarea
-            placeholder="How can we help you?*"
+            placeholder="Tell us about your case*"
             data-name="How can we help you?"
             className="w-input"
             {...form.register("message", {

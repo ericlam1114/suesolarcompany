@@ -107,7 +107,7 @@ p {
   height: 500px;
   background-color: #000;
   background-image: linear-gradient(rgba(0, 27, 67, 0.644), rgba(2, 0, 90, 0.641)),
-    url('/images/irs.webp');
+    url('/images/solarbanner.webp');
   background-position: 0 0, 0 0;
   flex-direction: column;
   justify-content: center;

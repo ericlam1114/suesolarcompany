@@ -1,23 +1,23 @@
-import { ResponsiveImage } from '@/components';
-import { populateMetadata } from '@/utils';
-import { Metadata, NextPage } from 'next';
-import ericLamImage from '../../../public/images/eric-lam.webp';
-import jonMorganImage from '../../../public/images/jon-morgan.webp';
-import sloganImage from '../../../public/images/slogan.webp';
-import './Tailwind.css'
-import Founder from './founder'
+import { ResponsiveImage } from "@/components";
+import { populateMetadata } from "@/utils";
+import { Metadata, NextPage } from "next";
+import ericLamImage from "../../../public/images/eric-lam.webp";
+import jonMorganImage from "../../../public/images/jon-morgan.webp";
+import sloganImage from "../../../public/images/slogan.webp";
+import "./Tailwind.css";
+import Founder from "./founder";
 
 export const metadata: Metadata = populateMetadata({
-  title: 'About Us | QSBS Attestation Letter | Online QSBS Service',
+  title: "About Us | Sue Solar Company | Solar Company Lawsuit",
   description:
-    'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
+    "We offer robust evidence and legal support to demonstrate that your solar company has violated contractual agreements or consumer protection laws.",
   openGraph: {
     description:
-      'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
+      "We offer robust evidence and legal support to demonstrate that your solar company has violated contractual agreements or consumer protection laws.",
   },
   twitter: {
     description:
-      'Allow us to assist you with your QSBS attestation needs. Ensure you never miss out on the valuable tax benefits you&apos;re entitled to with Qualified Small Business Stock.',
+      "We offer robust evidence and legal support to demonstrate that your solar company has violated contractual agreements or consumer protection laws.",
   },
 });
 
@@ -44,28 +44,38 @@ const AboutUsPage: NextPage = () => {
           </div>
           <h1 className="text-2xl pt-4 pb-6">About Us</h1>
           <p>
-          QSBSLetter, a leading firm specializing in Qualified Small Business Stock (QSBS) attestation letters, is dedicated to serving the needs of investors and shareholders. Our mission is to protect our clients from potential tax complications and ensure they fully benefit from QSBS tax exemptions.
-
-<br />
-            <br />
-            Navigating the complexities of QSBS criteria and IRS regulations can be challenging and intricate. At QSBLetter, we leverage our deep expertise and strong connections within the financial and legal market, managing every aspect of the QSBS attestation process. This includes preparing and submitting attestation documents, engaging in data verification, assessing stock eligibility and providing attestation letters.
+            Our mission is to shield our clients from the consequences of
+            deceptive solar company practices and ensure they receive the
+            justice and compensation they deserve.
             <br />
             <br />
-            Our approach is to create meticulous and compelling attestations using in-depth knowledge of tax laws and strong analytical skills, aimed at validating the QSBS status of your investments. We place our clients needs at the forefront, ensuring transparent and ongoing communication throughout the attestation process.
-
-
+            Navigating the intricacies of legal cases against solar companies
+            can be complex and demanding. At SueSolarCompany, we utilize our
+            extensive legal knowledge and strong network within the legal
+            community to manage every aspect of your case against a solar
+            company. This includes thorough investigation, document preparation,
+            evidence gathering, and robust legal representation.
             <br />
             <br />
-            QSBSLetter is committed to ensuring that your investments are accurately represented and qualify for the QSBS tax benefits they deserve. Our team of experienced tax professionals, armed with effective strategies and a profound understanding of QSBS regulations, has consistently helped clients achieve compliance and maximize their tax savings. We are the #1 online native attestation letter service.
-
-
-           
+            Our approach is rooted in comprehensive legal analysis and strategic
+            planning, aimed at challenging the wrongful actions of solar
+            companies. We prioritize our clients' needs, ensuring clear and
+            consistent communication throughout the legal process.
             <br />
             <br />
-            You can be confident that your QSBS eligibility will be thoroughly reviewed and validated by our expert team. We pride ourselves on outstanding client service at QSBSLetter and remain readily available to address any questions or concerns throughout the attestation process.
-
-
-           
+            SueSolarCompany is dedicated to ensuring that your case against a solar
+            company is presented effectively and accurately, maximizing the
+            likelihood of a favorable outcome. Our team of seasoned legal
+            professionals, equipped with strategic approaches and a deep
+            understanding of consumer protection laws, has consistently helped
+            clients successfully navigate their disputes. We are the leading
+            online resource for legal assistance against solar companies.
+            <br />
+            <br />
+            With SueSolarCompany, you can trust that your case will be meticulously
+            evaluated and pursued by our expert team. We take pride in
+            delivering exceptional client service and are always available to
+            answer any queries or address concerns during your legal journey.
           </p>
           <div className="w-layout-blockcontainer w-container">
             <div className="columns-3 w-row">
@@ -97,7 +107,7 @@ const AboutUsPage: NextPage = () => {
                     outdoor activities like softball.
                   </p>
                 </div> */}
-              {/* </div>
+                {/* </div>
               <div className="w-col w-col-6">
                 <ResponsiveImage
                   src={jonMorganImage}
@@ -147,12 +157,10 @@ const AboutUsPage: NextPage = () => {
                     commercial real estate appraiser&#x27;s.{' '}
                   </p> */}
                 {/* </div> */}
-
               </div>
-
             </div>
           </div>
-          <Founder></Founder>
+          {/* <Founder></Founder> */}
         </div>
       </div>
     </>

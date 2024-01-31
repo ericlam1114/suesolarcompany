@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import logoImage from '../../public/images/qsbslogo.webp';
+import logoImage from '../../public/logo.jpg';
 
 const links = [
   {
@@ -19,10 +19,7 @@ const links = [
     href: '/services',
     label: 'Services',
   },
-  {
-    href: '/qsbs-calculator',
-    label: 'Calculator',
-  },
+ 
   // {
   //   href: '/free-tax-review',
   //   label: 'Free Tax Review',
@@ -31,12 +28,9 @@ const links = [
   //   href: '/tax-appeal-case-studies',
   //   label: 'Case Studies',
   // },
+
   {
-    href: '/blog',
-    label: 'Blog',
-  },
-  {
-    href: 'mailto::info@sftaxappeal.com?subject=New%20Inquiry',
+    href: 'mailto::info@suesolarcompany.com?subject=New%20Inquiry',
     label: 'Contact Us',
   },
 ];
@@ -136,7 +130,7 @@ export const Header: React.FC = () => {
               width={300}
               height={70}
               src={logoImage}
-              alt="san francisco tax appeal logo"
+              alt="logo"
               className="image"
             />
           </Link>
