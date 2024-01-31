@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch'); // If you need to fetch dynamic routes
 
 const BASE_URL = 'https://www.yourdomain.com';
 const PAGES = [
@@ -11,6 +10,9 @@ const PAGES = [
 ];
 
 async function generateSitemap() {
+  // Dynamically import node-fetch as an ES Module
+  const { default: fetch } = await import('node-fetch');
+
   // Fetch dynamic routes, if any, e.g., blog posts
   const dynamicRoutes = await fetch('https://api.yourdomain.com/posts')
     .then(res => res.json())
