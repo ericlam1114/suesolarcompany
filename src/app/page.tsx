@@ -338,10 +338,10 @@ src={DesignImage}
               Understanding Your Legal Options
             </h2>
             <p className="mt-6 text-lg text-left leading-8 text-gray-600">
-              It's essential to understand the variety of legal options
+              It&#39;s essential to understand the variety of legal options
               available when dealing with solar company disputes. Our team helps
               in evaluating your case, determining the most effective legal
-              strategy, whether it's seeking damages through a lawsuit or
+              strategy, whether it&#39;s seeking damages through a lawsuit or
               resolving issues via mediation or arbitration.
               <br />
               <br />

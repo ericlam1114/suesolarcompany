@@ -59,7 +59,7 @@ const AboutUsPage: NextPage = () => {
             <br />
             Our approach is rooted in comprehensive legal analysis and strategic
             planning, aimed at challenging the wrongful actions of solar
-            companies. We prioritize our clients' needs, ensuring clear and
+            companies. We prioritize our clients&#39; needs, ensuring clear and
             consistent communication throughout the legal process.
             <br />
             <br />

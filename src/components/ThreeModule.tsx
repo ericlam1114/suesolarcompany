@@ -49,7 +49,7 @@ export default function Example() {
             className="icon"
           />
           <p className="paragraph-3">
-            Focused exclusively on solar company disputes, we're dedicated to
+            Focused exclusively on solar company disputes, we&#39;re dedicated to
             staying abreast of the latest legal developments and consumer
             protections.
           </p>
